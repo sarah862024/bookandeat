@@ -59,7 +59,7 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
-    $("#know us").css({cursor:pointer}).click(function(){
+    $("#know us").click(function(){
         $(".content").fadeOut("fast");
        $(".about").fadeIn("fast");
     });
@@ -237,6 +237,7 @@ background-color:transparent;
 }
 .information:hover{
 color:green;
+cursor:pointer;
 }
 </style>
 <body>
