@@ -254,7 +254,7 @@ color:green;
            <div class="k-ad">
              <p>k中廣告</p>
            </div>
-       <div class="login">
+           <div class="login">
              <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
@@ -262,7 +262,7 @@ color:green;
 <br>
 <input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/>
 </b>
-       </div>
+           </div>
        </div>
    <p></p>
        <div class="news-good">
@@ -277,7 +277,7 @@ color:green;
        <div class="fbad">
            <p>食物跟參考書的廣告</p>
        </div>
-       </div>
+      
        <div class="link">
          <p>重要連結</p>
        </div>
