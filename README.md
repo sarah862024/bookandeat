@@ -250,7 +250,7 @@ color:green;
    <div class="content">
        <div class="ad-login">
            <div class="k-ad">
-             <p>k中廣告</p>
+             <p>k中廣告1</p>
            </div>
            <div class="login">
              <p>登入</p>
