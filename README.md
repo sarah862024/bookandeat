@@ -25,6 +25,7 @@ $(document).ready(function() {
    $("#login_button1").click(function(){
        $(".main").css({opacity:'0.5'});
         $(".loginframe").fadeIn("fast");
+        $(".signupframe").fadeOut("fast");
    });
    $("#loginclose").click(function(){
         $(".loginframe").fadeOut("fast");
@@ -43,6 +44,7 @@ $(document).ready(function() {
    $("#login_button2").click(function(){
        $(".main").css({opacity:'0.5'});
         $(".signupframe").fadeIn("fast");
+        $(".loginframe").fadeOut("fast");
    });
    $("#signupclose").click(function(){
         $(".signupframe").fadeOut("fast");
