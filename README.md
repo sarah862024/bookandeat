@@ -232,6 +232,13 @@ background-color:transparent;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
+   <form id="mainform">
+   <input type="hidden" id="knowus" value="認識我們">
+   <input type="hidden" id="bookseat" value="預約座位">
+   <input type="hidden" id="trffic" value="交通資訊">
+   <input type="hidden" id="QA" value="常見問題">
+   <input type="hidden" id="comment" value="意見回饋">
+   </form>
    <ul>
    <li>認識我們</li>
    <li>預約座位</li>
