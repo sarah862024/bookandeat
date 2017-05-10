@@ -59,10 +59,6 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
-    $("#know us").click(function(){
-        $(".content").fadeOut("fast");
-       $(".about").fadeIn("fast");
-    });
 });
 </script>
 <style>
@@ -70,12 +66,6 @@ body{
 background-color:#CEFFCE;
 weight:900px;
 height:100%;
-}
-.about{
-display:none;
-weight:900px;
-height:300px;
-align:center;
 }
 .login_button{
 border-radius:2px;
@@ -250,7 +240,7 @@ cursor:pointer;
    </div>
    <div class="ad-login">
        <div class="k-ad">
-           <p>k中廣告1</p>
+           <p>k中廣告</p>
        </div>
        <div class="login">
            <p>登入</p>
@@ -303,5 +293,4 @@ cursor:pointer;
      </form>
      <input type="button" id="ysignup" value="    註     冊   "/>
      </div>
-     
 </body>
