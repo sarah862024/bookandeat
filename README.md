@@ -269,7 +269,7 @@ background-color:transparent;
      帳號:<input type="text" placeholder="請輸入新帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入新密碼"><br>
      </form>
-     <input type="button" id="ylogin2" value="    注     冊   "/>
+     <input type="button" id="ylogin2" value="    註     冊   "/>
      </div>
 </body>
 
