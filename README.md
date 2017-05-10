@@ -229,6 +229,11 @@ background-color:transparent;
 color:green;
 cursor:pointer;
 }
+.information{
+font-size:30px;
+font-family:Microsoft JhengHei;
+
+}
 </style>
 <body>
 <div class="main">
