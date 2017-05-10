@@ -232,7 +232,13 @@ background-color:transparent;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <p>資訊連結列:認識我們 預約座位 交通資訊 常見問題 意見回饋</p>
+   <ul>
+   <li>認識我們</li>
+   <li>預約座位</li>
+   <li>交通資訊<li>
+   <li>常見問題</li>
+   <li>意見回饋</li>
+   </ul>
    </div>
    <div class="ad-login">
       <div class="k-ad">
@@ -280,7 +286,7 @@ background-color:transparent;
      <input type="button" id="ylogin" value="    登     入   "/>
      </div>
     <div class="signupframe">
-<img id="signuptitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="signupclose" weight="50" height="50">
+<img id="signuptitle" src="http://lily0714.github.io/book-eat/註冊框頭.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="signupclose" weight="50" height="50">
 <br>
      <form class = "form1">
      <br>
