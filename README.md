@@ -232,7 +232,7 @@ cursor:pointer;
 .information{
 font-size:20px;
 font-family:Microsoft JhengHei;
-
+position:relative;
 }
 </style>
 <body>
