@@ -233,7 +233,7 @@ cursor:pointer;
 font-size:20px;
 font-family:Microsoft JhengHei;
 position:relative;
-top: -18px;
+top: -16px;
 }
 </style>
 <body>
