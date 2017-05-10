@@ -188,7 +188,7 @@ font-size:20px;
 border-radius:2px;
 cursor:pointer;
 }
-form{
+.form1{
 float:left;
 position:relative;
 left:50px;
@@ -272,7 +272,7 @@ background-color:transparent;
     <div class="loginframe">
 <img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
 <br>
-     <form>
+     <form class = "form1">
      <br>
      帳號:<input type="text" placeholder="請輸入帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼"><br>
@@ -282,7 +282,7 @@ background-color:transparent;
     <div class="signupframe">
 <img id="signuptitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="signupclose" weight="50" height="50">
 <br>
-     <form>
+     <form class = "form1">
      <br>
      帳號:<input type="text" placeholder="請輸入新帳號"><br><br>
      密碼:<input type="text" placeholder="請輸入新密碼"><br>
