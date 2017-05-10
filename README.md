@@ -247,7 +247,13 @@ top: -16px;
    </div>
    <div class="menu">
    <strong>
-   <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;&emsp;</nobr><br> </strong>
+   <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;&emsp;</nobr>
+   <a href="https://zx85010442.github.io/book-eat-About-Us/" target="_blank">
+   <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;&emsp;</nobr></a> 
+   <nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;&emsp;</nobr>
+   <nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;&emsp;</nobr>
+   <nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;&emsp;</nobr>
+   <nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;&emsp;</nobr><br> </strong>
    </div>
    <div class="ad-login">
        <div class="k-ad">
