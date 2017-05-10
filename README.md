@@ -39,6 +39,24 @@ $(document).ready(function() {
         $("#ylogin").css("color", "white");
         $("#ylogin").css("background", "green");
    });
+   /*開起註冊框signupframe*/
+   $("#login_button2").click(function(){
+       $(".main").css({opacity:'0.5'});
+        $(".signupframe").fadeIn("fast");
+   });
+   $("#signupclose").click(function(){
+        $(".signupframe").fadeOut("fast");
+        $(".main").animate({opacity:'1'});
+   });
+   /*確定註冊*/
+   $("#ysignup").mouseenter(function(){
+        $("#ysignup").css("color", "green");
+        $("#ysignup").css("background", "white");
+   });
+   $("#ysignup").mouseout(function(){
+        $("#ysignup").css("color", "white");
+        $("#ysignup").css("background", "green");
+   });
 });
 </script>
 <style>
@@ -104,6 +122,20 @@ z-index:3;
 display:none;
 opacity:1;
 }
+.signupframe{
+weight:450px;
+height:250px;
+background-color:#FFFFFF;
+border-radius:1px;
+border-style:solid;
+border-color:green;
+position:fixed;
+top:20%;
+left:30%;
+z-index:3;
+display:none;
+opacity:1;
+}
 #logintitle{
 float:left;
 position:relative;
@@ -116,6 +148,31 @@ position:relative;
 right:1px;
 }
 #ylogin{
+float:right;
+position:relative;
+right:50px;
+bottom:-10px;
+color:white;
+background:green;
+weight:110px;
+height:110px;
+font-family:Microsoft JhengHei;
+font-size:20px;
+border-radius:2px;
+cursor:pointer;
+}
+#signuptitle{
+float:left;
+position:relative;
+left:1px;
+}
+#signupclose{
+cursor:pointer;
+float:right;
+position:relative;
+right:1px;
+}
+#ysignup{
 float:right;
 position:relative;
 right:50px;
@@ -220,6 +277,15 @@ background-color:transparent;
      </form>
      <input type="button" id="ylogin" value="    登     入   "/>
      </div>
-   
+    <div class="signupframe">
+<img id="signuptitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="signupclose" weight="50" height="50">
+<br>
+     <form>
+     <br>
+     帳號:<input type="text" placeholder="請輸入新帳號"><br><br>
+     密碼:<input type="text" placeholder="請輸入新密碼"><br>
+     </form>
+     <input type="button" id="ysignup" value="    註     冊   "/>
+     </div>
 </body>
 
