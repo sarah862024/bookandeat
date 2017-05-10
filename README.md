@@ -59,6 +59,10 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
+    $("#know us").css({cursor:pointer;}).click(function(){
+        $(".content").fadeOut("fast");
+        $(".about").fadeIn("fast");
+    });
 });
 </script>
 <style>
@@ -66,6 +70,12 @@ body{
 background-color:#CEFFCE;
 weight:900px;
 height:100%;
+}
+.about{
+display:none;
+weight:900px;
+height:300px;
+align:center;
 }
 .login_button{
 border-radius:2px;
@@ -225,6 +235,9 @@ bottom: 0;
 right: 0;
 background-color:transparent;	
 }
+.information:hover{
+color:green;
+}
 </style>
 <body>
 <div class="main">
@@ -232,8 +245,9 @@ background-color:transparent;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <p><nobr id="know us">認識我們</nobr><nobr>預約座位</nobr></p> 
+   <p><nobr class="information" id="know us">: 認識我們 :</nobr><nobr class="information" id="book seat">: 預約座位 :</nobr></p> 
    </div>
+   <div class="content">
    <div class="ad-login">
       <div class="k-ad">
       <p>k中廣告</p>
@@ -260,6 +274,7 @@ background-color:transparent;
    <p></p>
    <div class="fbad">
    <p>食物跟參考書的廣告</p>
+   </div>
    </div>
    <div class="link">
    <p>重要連結</p>
@@ -289,7 +304,7 @@ background-color:transparent;
      </form>
      <input type="button" id="ysignup" value="    註     冊   "/>
      </div>
-     <div>
+     <div class="about">
      <center>
            我們創立這個K書中心( 博客來一客 Book and Eat )是為了讓每個需要<br>
            讀書空間的人有既安靜又整潔的地方能夠使用。很多人常常讀書讀著讀著<br>
