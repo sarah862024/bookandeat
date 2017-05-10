@@ -59,7 +59,7 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
-    $("#know us").css({cursor:'pointer';}).click(function(){
+    $("#know us").css({cursor:'pointer'}).click(function(){
         $(".content").fadeOut("fast");
        $(".about").fadeIn("fast");
       
@@ -97,7 +97,7 @@ height:120px;
 .menu{
 weight:900px;
 height:50px;
-background-color:#AAAAFF;
+background-color:#FFFFFF;
 }
 .ad-login{
 weight:900px;
