@@ -248,21 +248,20 @@ cursor:pointer;
    <div class="menu">
    <p><nobr class="information" id="know us">: 認識我們 :</nobr><nobr class="information" id="book seat">: 預約座位 :</nobr></p> 
    </div>
-   <div class="content">
-       <div class="ad-login">
-           <div class="k-ad">
-             <p>k中廣告1</p>
-           </div>
-           <div class="login">
-             <p>登入</p>
+   <div class="ad-login">
+       <div class="k-ad">
+           <p>k中廣告1</p>
+       </div>
+       <div class="login">
+           <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
 <br>
 <input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/>
 </b>
-           </div>
        </div>
+  </div>
    <p></p>
        <div class="news-good">
             <div class="news">
@@ -280,7 +279,7 @@ cursor:pointer;
        <div class="link">
          <p>重要連結</p>
        </div>
-       
+</div>       
    /*主要內容外的東西*/
    <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
    /*彈出視窗在這*/
@@ -304,16 +303,5 @@ cursor:pointer;
      </form>
      <input type="button" id="ysignup" value="    註     冊   "/>
      </div>
-     </div>
-</div>
-     <div class="about">
-           我們創立這個K書中心( 博客來一客 Book and Eat )是為了讓每個需要<br>
-           讀書空間的人有既安靜又整潔的地方能夠使用。很多人常常讀書讀著讀著<br>
-           肚子就餓了，又或著讀著讀著就開始恍神、打瞌睡、精神不濟。但是平常<br>
-           在圖書館、公用的讀書空間之類的場所都是不準飲食的，讓很多人覺得很<br>
-           困擾，甚至導致有人會在以上場所刻意違規偷偷吃東西喝飲料。如果您也<br>
-           是這樣覺得，那博客來一客就是您的最佳選擇了，博客來一客提供大家安<br>
-           靜整潔的舒適空間，另外也提供各式各樣的食物及飲品，讓你在認真讀書<br>
-           的同時也能邊享用美食提振您的精神。
-     </div>
+     
 </body>
