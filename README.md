@@ -30,14 +30,6 @@ $(document).ready(function() {
         $(".loginframe").fadeOut("fast");
         $(".main").animate({opacity:'1'});
    });
-   $("#login_button2").click(function(){
-       $(".main").css({opacity:'0.5'});
-        $(".signupframe").fadeIn("fast");
-   });
-   $("#loginclose2").click(function(){
-        $(".signupframe").fadeOut("fast");
-        $(".main").animate({opacity:'1'});
-   });
    /*確定登入*/
    $("#ylogin").mouseenter(function(){
         $("#ylogin").css("color", "green");
@@ -46,14 +38,6 @@ $(document).ready(function() {
    $("#ylogin").mouseout(function(){
         $("#ylogin").css("color", "white");
         $("#ylogin").css("background", "green");
-   });
-   $("#ylogin2").mouseenter(function(){
-        $("#ylogin2").css("color", "green");
-        $("#ylogin2").css("background", "white");
-   });
-   $("#ylogin2").mouseout(function(){
-        $("#ylogin2").css("color", "white");
-        $("#ylogin2").css("background", "green");
    });
 });
 </script>
@@ -120,26 +104,7 @@ z-index:3;
 display:none;
 opacity:1;
 }
-.signupframe{
-weight:450px;
-height:250px;
-background-color:#FFFFFF;
-border-radius:1px;
-border-style:solid;
-border-color:green;
-position:fixed;
-top:20%;
-left:30%;
-z-index:3;
-display:none;
-opacity:1;
-}
 #logintitle{
-float:left;
-position:relative;
-left:1px;
-}
-#logintitle2{
 float:left;
 position:relative;
 left:1px;
@@ -150,27 +115,7 @@ float:right;
 position:relative;
 right:1px;
 }
-#loginclose2{
-cursor:pointer;
-float:right;
-position:relative;
-right:1px;
-}
 #ylogin{
-float:right;
-position:relative;
-right:50px;
-bottom:-10px;
-color:white;
-background:green;
-weight:110px;
-height:110px;
-font-family:Microsoft JhengHei;
-font-size:20px;
-border-radius:2px;
-cursor:pointer;
-}
-#ylogin2{
 float:right;
 position:relative;
 right:50px;
@@ -275,15 +220,6 @@ background-color:transparent;
      </form>
      <input type="button" id="ylogin" value="    登     入   "/>
      </div>
-   <div class="signupframe">
-<img id="logintitle2" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose2" weight="50" height="50">
-<br>
-     <form>
-     <br>
-     帳號:<input type="text" placeholder="請輸入新帳號"><br><br>
-     密碼:<input type="text" placeholder="請輸入新密碼"><br>
-     </form>
-     <input type="button" id="ylogin2" value="    註     冊   "/>
-     </div>
+   
 </body>
 
