@@ -59,10 +59,6 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
-   /*切換關於我們*/
-   $("#know us").click(function(){
-        window.open("https://zx85010442.github.io/book-eat-About-Us/" ,_self);
-   });
 });
 </script>
 <style>
@@ -236,8 +232,8 @@ cursor:pointer;
 .information{
 font-size:20px;
 font-family:Microsoft JhengHei;
-/*position:relative;*/
-/*top: -16px;*/
+position:relative;
+top: 5px;
 }
 </style>
 <body>
@@ -247,7 +243,8 @@ font-family:Microsoft JhengHei;
    </div>
    <div class="menu">
    <strong>
-   <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr>
+   <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
+   <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
    <a href="https://zx85010442.github.io/book-eat-About-Us/" target="_self" style="text-decoration:none;color:black;">
    <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;</nobr></a> 
    <nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;</nobr>
