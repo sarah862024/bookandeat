@@ -232,20 +232,7 @@ background-color:transparent;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <form id="mainform">
-   <input type="hidden" id="knowus" value="認識我們">
-   <input type="hidden" id="bookseat" value="預約座位">
-   <input type="hidden" id="trffic" value="交通資訊">
-   <input type="hidden" id="QA" value="常見問題">
-   <input type="hidden" id="comment" value="意見回饋">
-   </form>
-   <ul>
-   <li>認識我們</li>
-   <li>預約座位</li>
-   <li>交通資訊<li>
-   <li>常見問題</li>
-   <li>意見回饋</li>
-   </ul>
+
    </div>
    <div class="ad-login">
       <div class="k-ad">
@@ -301,6 +288,18 @@ background-color:transparent;
      密碼:<input type="text" placeholder="請輸入新密碼"><br>
      </form>
      <input type="button" id="ysignup" value="    註     冊   "/>
+     </div>
+     <div>
+     <center>
+           我們創立這個K書中心( 博客來一客 Book and Eat )是為了讓每個需要<br>
+           讀書空間的人有既安靜又整潔的地方能夠使用。很多人常常讀書讀著讀著<br>
+           肚子就餓了，又或著讀著讀著就開始恍神、打瞌睡、精神不濟。但是平常<br>
+           在圖書館、公用的讀書空間之類的場所都是不準飲食的，讓很多人覺得很<br>
+           困擾，甚至導致有人會在以上場所刻意違規偷偷吃東西喝飲料。如果您也<br>
+           是這樣覺得，那博客來一客就是您的最佳選擇了，博客來一客提供大家安<br>
+           靜整潔的舒適空間，另外也提供各式各樣的食物及飲品，讓你在認真讀書<br>
+           的同時也能邊享用美食提振您的精神。<br>
+     </center>
      </div>
 </body>
 
