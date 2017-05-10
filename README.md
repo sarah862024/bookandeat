@@ -61,7 +61,9 @@ $(document).ready(function() {
    });
     $("#know us").css({cursor:pointer;}).click(function(){
         $(".content").fadeOut("fast");
-        $(".about").fadeIn("fast");
+       $(".about").fadeIn("fast");
+      
+       
     });
 });
 </script>
@@ -248,39 +250,38 @@ color:green;
    <p><nobr class="information" id="know us">: 認識我們 :</nobr><nobr class="information" id="book seat">: 預約座位 :</nobr></p> 
    </div>
    <div class="content">
-   <div class="ad-login">
-      <div class="k-ad">
-      <p>k中廣告</p>
-      </div>
-     <div class="login">
-        <p>登入</p>
+       <div class="ad-login">
+           <div class="k-ad">
+             <p>k中廣告</p>
+           </div>
+       <div class="login">
+             <p>登入</p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
 <br>
 <input type="button" id="login_button2" class = "login_button" value=" 註 冊 "/>
 </b>
-     </div>
-   </div>
+       </div>
+       </div>
    <p></p>
-   <div class="news-good">
-      <div class="news">
-      <p>最新動態</p>
-      </div>
-      <div class="good">
-      <p>傑出動態</p>
-      </div>
-   </div>
+       <div class="news-good">
+            <div class="news">
+                <p>最新動態</p>
+            </div>
+            <div class="good">
+                <p>傑出動態</p>
+            </div>
+       </div>
    <p></p>
-   <div class="fbad">
-   <p>食物跟參考書的廣告</p>
-   </div>
-   </div>
-   <div class="link">
-   <p>重要連結</p>
-   </div>
-   
- </div>
+       <div class="fbad">
+           <p>食物跟參考書的廣告</p>
+       </div>
+       </div>
+       <div class="link">
+         <p>重要連結</p>
+       </div>
+       
    /*主要內容外的東西*/
    <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
    /*彈出視窗在這*/
@@ -303,6 +304,7 @@ color:green;
      密碼:<input type="text" placeholder="請輸入新密碼"><br>
      </form>
      <input type="button" id="ysignup" value="    註     冊   "/>
+     </div>
      </div>
      <div class="about">
      <center>
