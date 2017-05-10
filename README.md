@@ -230,7 +230,7 @@ color:green;
 cursor:pointer;
 }
 .information{
-font-size:30px;
+font-size:20px;
 font-family:Microsoft JhengHei;
 
 }
@@ -241,7 +241,7 @@ font-family:Microsoft JhengHei;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;&emsp;</nobr><br> 
+   <nobr class="information" id="homepage">&nbsp;&emsp;&emsp;首  頁&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;&emsp;</nobr><nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;&emsp;</nobr><br> 
    </div>
    <div class="ad-login">
        <div class="k-ad">
