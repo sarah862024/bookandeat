@@ -32,10 +32,10 @@ $(document).ready(function() {
    });
    $("#login_button2").click(function(){
        $(".main").css({opacity:'0.5'});
-        $(".loginframe").fadeIn("fast");
+        $(".signupframe").fadeIn("fast");
    });
    $("#loginclose2").click(function(){
-        $(".loginframe").fadeOut("fast");
+        $(".signupframe").fadeOut("fast");
         $(".main").animate({opacity:'1'});
    });
    /*確定登入*/
@@ -107,6 +107,20 @@ padding-right:60px;
 padding-bottom:-20px;
 }
 .loginframe{
+weight:450px;
+height:250px;
+background-color:#FFFFFF;
+border-radius:1px;
+border-style:solid;
+border-color:green;
+position:fixed;
+top:20%;
+left:30%;
+z-index:3;
+display:none;
+opacity:1;
+}
+.signupframe{
 weight:450px;
 height:250px;
 background-color:#FFFFFF;
@@ -261,7 +275,7 @@ background-color:transparent;
      </form>
      <input type="button" id="ylogin" value="    登     入   "/>
      </div>
-   <div class="loginframe">
+   <div class="signupframe">
 <img id="logintitle2" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose2" weight="50" height="50">
 <br>
      <form>
