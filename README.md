@@ -236,7 +236,7 @@ cursor:pointer;
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
    <div class="menu">
-   <nobr class="information" id="know us">  認識我們  </nobr><nobr class="information" id="book seat">  預約座位  </nobr><br> 
+   <nobr class="information" id="know us">&nbsp;認識我們&nbsp;</nobr><nobr class="information" id="book seat">&nbsp;預約座位&nbsp;</nobr><nobr class="information" id="traffic">&nbsp;交通位置&nbsp;</nobr><nobr class="information" id="QA">&nbsp;常見問題&nbsp;</nobr><nobr class="information" id="comment">&nbsp;意見回饋&nbsp;</nobr><br> 
    </div>
    <div class="ad-login">
        <div class="k-ad">
