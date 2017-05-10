@@ -60,8 +60,8 @@ $(document).ready(function() {
         $("#ysignup").css("background", "green");
    });
    /*切換關於我們*/
-   $("#login_button2").click(function(){
-        window.open("https://zx85010442.github.io/book-eat-About-Us/",_self);
+   $("#know us").click(function(){
+        window.open("https://zx85010442.github.io/book-eat-About-Us/" ,_self);
    });
 });
 </script>
