@@ -61,7 +61,7 @@ $(document).ready(function() {
    });
 });
 
-var jsImg = new Array[{img:'https://lily0714.github.io/book-eat/Web%20k中廣告1.png'}, {img:'https://lily0714.github.io/book-eat/Web k中廣告2.png'} ];
+var jsImg = new Array[{img:'https://github.com/sarah862024/bookandeat/blob/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png?raw=true'}, {img:'https://github.com/sarah862024/bookandeat/blob/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A2.png?raw=true'} ];
         var jsImg_len = jsImg.length;  // 圖檔數量
         // 要用另一個變數存，是不想在 function 中每次都要算陣列的大小
         var i=2;                       //起始照片  2 為 003.jpg
