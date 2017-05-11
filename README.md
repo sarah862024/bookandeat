@@ -257,7 +257,8 @@ z-index:-1;
    </div>
    <div class="menu">
    <strong>
-   <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
+   <HR color="#227700" size="10" ></HR>
+   <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
    <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
    <a href="https://zx85010442.github.io/book-eat-About-Us/" target="_self" style="text-decoration:none;color:black;">
    <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;</nobr></a> 
