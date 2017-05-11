@@ -255,9 +255,9 @@ z-index:-1;
    <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
+      <HR color="#227700" size="10" ></HR>
    <div class="menu">
    <strong>
-   <HR color="#227700" size="10" ></HR>
    <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
    <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
    <a href="https://zx85010442.github.io/book-eat-About-Us/" target="_self" style="text-decoration:none;color:black;">
