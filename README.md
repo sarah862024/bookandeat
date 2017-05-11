@@ -268,7 +268,7 @@ z-index:-1;
    <div class = "bigback">
    <div class="ad-login">
        <div class="k-ad">
-           <p>k中廣告&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+           <p>k中廣告&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
        </div>
        <div class="login">
            <p></p>
@@ -299,9 +299,9 @@ z-index:-1;
        </div>
        </div>
 </div>       
-   /*主要內容外的東西*/
+
    <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
-   /*彈出視窗在這*/
+
     <div class="loginframe">
 <img id="logintitle" src="http://lily0714.github.io/book-eat/登入框頭1.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="loginclose" weight="50" height="50">
 <br>
