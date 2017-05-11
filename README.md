@@ -112,6 +112,7 @@ margin-right:20px;
 margin-bottom:10px; 
 padding-right:60px;
 padding-bottom:-20px;
+padding-top:60px;
 z-index:1;
 }
 .loginframe{
@@ -268,7 +269,7 @@ z-index:-1;
    <div class = "bigback">
    <div class="ad-login">
        <div class="k-ad">
-           <p>k中廣告&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+           <p>k中廣告&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
        </div>
        <div class="login">
            <p></p>
