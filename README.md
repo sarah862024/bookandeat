@@ -255,7 +255,7 @@ z-index:-1;
    <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
-      <HR color="#227700" size="10" ></HR>
+      <HR color="#005757" size="10" >
    <div class="menu">
    <strong>
    <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
