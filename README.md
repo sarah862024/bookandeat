@@ -261,6 +261,10 @@ background-color:transparent;
 position:absolute;
 z-index:-1;
 }
+#my_div{
+position:absolute;
+z-index:5;
+}
 </style>
 <body onload="sequentialImg();">
 <div class="main">
