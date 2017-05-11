@@ -60,6 +60,18 @@ $(document).ready(function() {
         $("#ysignup").css("background", "green");
    });
 });
+
+var jsImg = new Array("001.jpg","002.jpg","003.jpg","004.jpg","005.jpg");
+        var jsImg_len = jsImg.length;  // 圖檔數量
+        // 要用另一個變數存，是不想在 function 中每次都要算陣列的大小
+        var i=2;                       //起始照片  2 為 003.jpg
+        //設定每兩秒執行一次sequentialImg() ，此行要在 function 之外
+        setInterval("sequentialImg()",2000);
+        function sequentialImg(){  //循序播放
+            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=200 height=200>";        
+                i++;
+                if(i>=jsImg_len)  i=0;
+        }
 </script>
 <style>
 body{
@@ -250,12 +262,11 @@ position:absolute;
 z-index:-1;
 }
 </style>
-<body>
+<body onload="sequentialImg();">
 <div class="main">
    <div class="logo">
    <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
    </div>
-      <HR color="#005757" size="10" >
    <div class="menu">
    <strong>
    <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
@@ -271,6 +282,7 @@ z-index:-1;
    <div class="ad-login">
        <div class="k-ad">
            <p>k中廣告&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+           <div id="my_div" ></div> 
        </div>
        <div class="login">
            <p></p>
