@@ -61,7 +61,7 @@ $(document).ready(function() {
    });
 });
 
-var jsImg = new Array("001.jpg","002.jpg","003.jpg","004.jpg","005.jpg");
+var jsImg = new Array[{img:'https://lily0714.github.io/book-eat/Web%20k中廣告1.png'}, {img:'https://lily0714.github.io/book-eat/Web k中廣告2.png'}, ];
         var jsImg_len = jsImg.length;  // 圖檔數量
         // 要用另一個變數存，是不想在 function 中每次都要算陣列的大小
         var i=2;                       //起始照片  2 為 003.jpg
