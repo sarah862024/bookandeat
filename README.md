@@ -265,11 +265,11 @@ z-index:-1;
    <nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;</nobr>
    <nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;</nobr><br> </strong>
    </div>
+   <div class = "bigback">
    <div class="ad-login">
        <div class="k-ad">
            <p>k中廣告&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
        </div>
-       <div class = "bigback">
        <div class="login">
            <p></p>
 <b>
