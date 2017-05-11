@@ -267,7 +267,7 @@ z-index:-1;
    </div>
    <div class="ad-login">
        <div class="k-ad">
-           <p>k中廣告</p>
+           <p>k中廣告&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
        </div>
        <div class = "bigback">
        <div class="login">
