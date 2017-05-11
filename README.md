@@ -76,6 +76,7 @@ font-family:Microsoft JhengHei;
 cursor:pointer;
 position:relative;
 left:30px;
+z-index:1;
 }
 .logo{
 weight:160px;
@@ -101,7 +102,9 @@ height:250px;
 float:right;
 weight:200px;
 height:250px;
-/*background-color:#0080FF;*/
+background-image:url("https://lily0714.github.io/book-eat/登入面板1.png");
+background-repeat:no-repeat;
+background-size：contain contain;
 border: 5px ridge green; 
 margin-top:10px; 
 margin-left:20px; 
@@ -109,6 +112,7 @@ margin-right:20px;
 margin-bottom:10px; 
 padding-right:60px;
 padding-bottom:-20px;
+z-index:1;
 }
 .loginframe{
 weight:450px;
@@ -235,6 +239,15 @@ font-family:Microsoft JhengHei;
 position:relative;
 top: 8px;
 }
+.bigback{
+weight:1000px;
+height:1200px;
+background-image:url("https://lily0714.github.io/book-eat/全底圖1.png");
+background-repeat:no-repeat;
+background-color:transparent;
+position:absolute;
+z-index:-1;
+}
 </style>
 <body>
 <div class="main">
@@ -256,8 +269,9 @@ top: 8px;
        <div class="k-ad">
            <p>k中廣告</p>
        </div>
-       <div class="login">
-           <p>登入</p>
+       <div class = "bigback">
+       <div class="login">
+           <p></p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
 <br>
@@ -282,6 +296,7 @@ top: 8px;
       
        <div class="link">
          <p>重要連結</p>
+       </div>
        </div>
 </div>       
    /*主要內容外的東西*/
