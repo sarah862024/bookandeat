@@ -256,7 +256,7 @@ font-family:Microsoft JhengHei;
 position:relative;
 top: 8px;
 }
-.bigback{
+/*.bigback{
 weight:1000px;
 height:1200px;
 background-image:url("https://lily0714.github.io/book-eat/全底圖1.png");
@@ -264,7 +264,7 @@ background-repeat:no-repeat;
 background-color:transparent;
 position:absolute;
 z-index:-1;
-}
+}*/
 #my_div{
 position:absolute;
 z-index:5;
