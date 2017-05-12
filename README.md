@@ -289,7 +289,7 @@ z-index:5;
    </div>
    <div class = "bigback">
    <div class="ad-login">
-       <div class="k-ad">
+       <div class="k-ad">    <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
            <div id="my_div" ></div> 
        </div>
        <div class="login">
