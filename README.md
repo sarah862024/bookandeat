@@ -124,7 +124,7 @@ background-repeat:no-repeat;
 background-size：contain contain;
 border: 5px ridge green; 
 margin-top:10px; 
-margin-left:20px; 
+margin-left:650px; 
 margin-right:20px; 
 margin-bottom:10px; 
 padding-right:60px;
@@ -269,6 +269,7 @@ z-index:-1;
 #my_div{
 position:absolute;
 z-index:5;
+margin-left:10px;
 }
 </style>
 <body onload="sequentialImg();">
@@ -290,7 +291,6 @@ z-index:5;
    <div class = "bigback">
    <div class="ad-login">
        <div class="k-ad">    
-&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br>
            <div id="my_div" ></div> 
        </div>
        <div class="login">
