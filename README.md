@@ -63,8 +63,8 @@ $(document).ready(function() {
 
 var jsImg = new Array(3);
 jsImg[0] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
-jsImg[1] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
-jsImg[2] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
+jsImg[1] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A2.png';
+jsImg[2] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A3.png';
         var jsImg_len = jsImg.length;  // 圖檔數量
         // 要用另一個變數存，是不想在 function 中每次都要算陣列的大小
         
@@ -72,7 +72,7 @@ jsImg[2] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
         //設定每兩秒執行一次sequentialImg() ，此行要在 function 之外
         setInterval("sequentialImg()",2000);
         function sequentialImg(){  //循序播放
-            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=200 height=200>";        
+            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=700 height=250>";        
                 i++;
                 if(i>=jsImg_len)  i=0;
         }
