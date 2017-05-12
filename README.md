@@ -61,9 +61,13 @@ $(document).ready(function() {
    });
 });
 
-var jsImg = new Array(img:"https://github.com/sarah862024/bookandeat/blob/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png?raw=true", img:"https://github.com/sarah862024/bookandeat/blob/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A2.png?raw=true");
+var jsImg = new Array(3);
+jsImg[0] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
+jsImg[1] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
+jsImg[2] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
         var jsImg_len = jsImg.length;  // 圖檔數量
         // 要用另一個變數存，是不想在 function 中每次都要算陣列的大小
+        
         var i=2;                       //起始照片  2 為 003.jpg
         //設定每兩秒執行一次sequentialImg() ，此行要在 function 之外
         setInterval("sequentialImg()",2000);
