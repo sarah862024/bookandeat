@@ -124,7 +124,7 @@ background-repeat:no-repeat;
 background-size：contain contain;
 border: 5px ridge green; 
 margin-top:0px; 
-margin-left:635px; 
+margin-left:633px; 
 margin-right:20px; 
 margin-bottom:10px; 
 padding-right:60px;
