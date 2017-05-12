@@ -123,8 +123,8 @@ background-image:url("https://lily0714.github.io/book-eat/登入面板1.png");
 background-repeat:no-repeat;
 background-size：contain contain;
 border: 5px ridge green; 
-margin-top:10px; 
-margin-left:650px; 
+margin-top:0px; 
+margin-left:640px; 
 margin-right:20px; 
 margin-bottom:10px; 
 padding-right:60px;
@@ -269,7 +269,7 @@ z-index:-1;
 #my_div{
 position:absolute;
 z-index:5;
-margin-left:10px;
+margin-left:20px;
 }
 </style>
 <body onload="sequentialImg();">
