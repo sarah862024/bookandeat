@@ -98,7 +98,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         var j=0;                     
         setInterval("sequentialImage()",4000);
         function sequentialImage(){ 
-            if(document.getElementById("fbad-right").onClick ){
+            if(document.getElementById("fbad-right").click ){
             fbImg[j]=fbImg[j+1];
             }
             
