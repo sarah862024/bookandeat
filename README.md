@@ -93,7 +93,7 @@ fbImg[10] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
 fbImg[11] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B85.png';
 fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B86.png';
         var fbImg_len = fbImg.length; 
-        i=2;                     
+        i=0;                     
         setInterval("sequentialImage()",4000);
         function sequentialImage(){ 
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[i]+"' width=900 height=300>";        
@@ -297,7 +297,7 @@ margin-left:20px;
 #fbad_div{
 position:absolute;
 z-index:5;
-margin-left:60px;
+margin-left:40px;
 }
 </style>
 <body onload="sequentialImg();">
