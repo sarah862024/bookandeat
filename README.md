@@ -59,9 +59,7 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
-   $(#fbad-left).click(function(){
-         document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j+1]+"' width=900 height=300>"; 
-   });
+
 });
 
 var jsImg = new Array(7);
@@ -343,7 +341,7 @@ float:right;
    <p></p>
        <div class="news-good">
             <div class="news">
-                <p>最新動態1</p>
+                <p>最新動態</p>
             </div>
             <div class="good">
                 <p>傑出動態</p>
