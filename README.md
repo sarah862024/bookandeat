@@ -294,6 +294,11 @@ position:absolute;
 z-index:5;
 margin-left:20px;
 }
+#fbad_div{
+position:absolute;
+z-index:5;
+margin-left:20px;
+}
 </style>
 <body onload="sequentialImg();">
 <div class="main">
@@ -337,7 +342,6 @@ margin-left:20px;
        </div>
    <p></p>
        <div class="fbad">
-           <p>食物跟參考書的廣告</p>
            <div id="fbad_div" ></div> 
        </div>
       
