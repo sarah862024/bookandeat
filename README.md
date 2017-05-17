@@ -297,7 +297,7 @@ margin-left:20px;
 #fbad_div{
 position:absolute;
 z-index:5;
-margin-left:20px;
+margin-left:60px;
 }
 </style>
 <body onload="sequentialImg();">
