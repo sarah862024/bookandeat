@@ -98,7 +98,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         var j=0;                     
         setInterval("sequentialImage()",4000);
         function sequentialImage(){ 
-            if(document.getElementById("fbad-right").onclick )j++;
+            if(document.getElementById("fbad-right").onclick )j=j+2;
             
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
                 j++;
@@ -343,7 +343,7 @@ float:right;
    <p></p>
        <div class="news-good">
             <div class="news">
-                <p>最新動態1</p>
+                <p>最新動態</p>
             </div>
             <div class="good">
                 <p>傑出動態</p>
