@@ -59,6 +59,7 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
+    
 });
 
 var jsImg = new Array(7);
@@ -72,11 +73,12 @@ jsImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
         var jsImg_len = jsImg.length; 
         var i=0;                     
         setInterval("sequentialImg()",4000);
-        function sequentialImg(){ 
+        function sequentialImg(){       
             document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=700 height=250>";        
                 i++;
                 if(i>=jsImg_len)  i=0;
         }
+        
         
 var fbImg = new Array(13);
 fbImg[0] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A91.png';
@@ -96,6 +98,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         var j=0;                     
         setInterval("sequentialImage()",4000);
         function sequentialImage(){ 
+            document.getElementById("fbad-right").onclick = fbImg[j+1];
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
                 j++;
                 if(j>=fbImg_len)  j=0;
