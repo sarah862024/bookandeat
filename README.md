@@ -59,7 +59,9 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
-    
+   $(#fbad-left).click(function(){
+         document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j+1]+"' width=900 height=300>"; 
+   });
 });
 
 var jsImg = new Array(7);
@@ -98,10 +100,6 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         var j=0;                     
         setInterval("sequentialImage()",4000);
         function sequentialImage(){ 
-            if(document.getElementById("fbad-right").click(function(){
-            fbImg[j]=fbImg[j+1];)
-            }
-            
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
                 j++;
                 if(j>=fbImg_len)  j=0;
