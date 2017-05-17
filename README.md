@@ -341,7 +341,7 @@ margin-left:40px;
        </div>
    <p></p>
        <div class="fbad">
-           <div id="fbad_div" ></div> 
+           <img id="fbad-left" src="https://sarah862024.github.io/bookandeat/左.png" weight="50" height="300"><div id="fbad_div" ></div><img id="fbad-right" src="https://sarah862024.github.io/bookandeat/右.png" weight="50" height="300"> 
        </div>
       
        <div class="link">
