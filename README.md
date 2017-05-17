@@ -318,7 +318,7 @@ margin-left:40px;
    <div class = "bigback">
    <div class="ad-login">
        <div class="k-ad">    
-           <img id="k-ad-left" src="https://sarah862024.github.io/左.png" weight="50" height="300"><div id="my_div" ></div><img id="k-ad-left" src="https://sarah862024.github.io/右.png" weight="50" height="300"> 
+           <div id="my_div" ></div>
        </div>
        <div class="login">
            <p></p>
