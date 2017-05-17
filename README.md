@@ -256,7 +256,6 @@ height:450px;
 .fbad{
 weight:900px;
 height:300px;
-background-color:#9D9D9D;
 }
 .link{
 weight:900px;
@@ -334,7 +333,7 @@ margin-left:40px;
    <p></p>
        <div class="news-good">
             <div class="news">
-                <p>最新動態</p>
+                <p>最新動態1</p>
             </div>
             <div class="good">
                 <p>傑出動態</p>
