@@ -77,6 +77,29 @@ jsImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
                 i++;
                 if(i>=jsImg_len)  i=0;
         }
+        
+var fbImg = new Array(13);
+fbImg[0] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A91.png';
+fbImg[1] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A92.png';
+fbImg[2] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A93.png';
+fbImg[3] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A94.png';
+fbImg[4] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A95.png';
+fbImg[5] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A96.png';
+fbImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E9%A3%9F%E7%89%A97.png';
+fbImg[7] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B81.png';
+fbImg[8] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B82.png';
+fbImg[9] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B83.png';
+fbImg[10] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B84.png';
+fbImg[11] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B85.png';
+fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B86.png';
+        var fbImg_len = fbImg.length; 
+        i=2;                     
+        setInterval("sequentialImage()",4000);
+        function sequentialImage(){ 
+            document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[i]+"' width=900 height=300>";        
+                i++;
+                if(i>=fbImg_len)  i=0;
+        }
 </script>
 <style>
 body{
@@ -315,6 +338,7 @@ margin-left:20px;
    <p></p>
        <div class="fbad">
            <p>食物跟參考書的廣告</p>
+           <div id="fbad_div" ></div> 
        </div>
       
        <div class="link">
