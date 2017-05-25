@@ -60,7 +60,7 @@ $(document).ready(function() {
         $("#ysignup").css("background", "green");
    });
 
-
+});
 
 var jsImg = new Array(7);
 jsImg[0] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
@@ -119,7 +119,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
               isHover = false;
               //啟動計時器
               timer =timer = setInterval("sequentialImg()",4000);
-        })
+        });
        //自動下一個
        function sequentialImage(){ 
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
@@ -128,7 +128,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         }
         //啟動計時器
          timer=setInterval("sequentialImage()",4000);
-});
+
 </script>
 <style>
 body{
