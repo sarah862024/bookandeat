@@ -40,17 +40,17 @@ $(document).ready(function() {
         $("#ylogin").css("color", "white");
         $("#ylogin").css("background", "green");
    });
-   /*開起註冊框signupframe*/
-   $("#login_button2").click(function(){
+   /*開起註冊框signupframe*/
+   $("#login_button2").click(function(){
        $(".main").css({opacity:'0.5'});
-        $(".signupframe").fadeIn("fast");
+        $(".signupframe").fadeIn("fast");
         $(".loginframe").fadeOut("fast");
    });
    $("#signupclose").click(function(){
         $(".signupframe").fadeOut("fast");
         $(".main").animate({opacity:'1'});
    });
-   /*確定註冊*/
+   /*確定註冊*/
    $("#ysignup").mouseenter(function(){
         $("#ysignup").css("color", "green");
         $("#ysignup").css("background", "white");
@@ -59,6 +59,7 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
+
 });
 
 var jsImg = new Array(7);
@@ -70,9 +71,9 @@ jsImg[4] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
 jsImg[5] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A6.png';
 jsImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A7.png';
         var jsImg_len = jsImg.length; 
-        var i=0;
+        var i=0;                     
         setInterval("sequentialImg()",4000);
-        function sequentialImg(){   
+        function sequentialImg(){       
             document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=700 height=250>";        
                 i++;
                 if(i>=jsImg_len)  i=0;
@@ -94,35 +95,9 @@ fbImg[10] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
 fbImg[11] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B85.png';
 fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B86.png';
         var fbImg_len = fbImg.length; 
-        var j=0;
-        var $next=$('#fbad-left');
-        var $fbaddiv =$block.find('#fbad_div');
-        var isHover = false; 
-        var timer=4000,speed=2000;
-         //啟動計時器
-         timer=setTimeout(sequentialImage,2000);
-        //點擊下一個
-        //滑鼠移入廣告框時click換mouseover
-        $next.click(function(){
-            document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
-            j++;
-            if(j>=fbImg_len)  j=0;
-            if(!isHover){
-            //啟動計時器
-            timer = setTimeout(sequentialImage,4000);
-            }
-        });
-        $fbaddiv.hover(function(){
-            isHover = true ;
-            //停止計時器
-            clearTimeout(timer);
-        }, function(){
-              isHover = false;
-              //啟動計時器
-              timer=setTimeout(sequentialImage,2000);
-        });
-       //自動下一個
-       function sequentialImage(){ 
+        var j=0;                     
+        setInterval("sequentialImage()",4000);
+        function sequentialImage(){ 
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
                 j++;
                 if(j>=fbImg_len)  j=0;
@@ -324,16 +299,12 @@ margin-left:20px;
 position:absolute;
 z-index:5;
 margin-left:40px;
-visibility: visible;
 }
 #fbad-left{
 float:left;
-cursor:pointer;
 }
 #fbad-right{
 float:right;
-
-cursor:pointer;
 }
 </style>
 <body onload="sequentialImg();">
@@ -343,10 +314,10 @@ cursor:pointer;
    </div>
    <div class="menu">
    <strong>
-   <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
-   <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
-   <a href="https://zx85010442.github.io/book-eat-About-Us/" target="_self" style="text-decoration:none;color:black;">
-   <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;</nobr></a> 
+   <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
+   <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
+   <a href="https://zx85010442.github.io/book-eat-About-Us/" target="_self" style="text-decoration:none;color:black;">
+   <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;</nobr></a> 
    <nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;</nobr>
    <nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;</nobr>
    <nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;</nobr>
@@ -354,10 +325,10 @@ cursor:pointer;
    </div>
    <div class = "bigback">
    <div class="ad-login">
-       <div class="k-ad">    
-           <div id="my_div" ></div>
+       <div class="k-ad">    
+           <div id="my_div" ></div>
        </div>
-       <div class="login">
+       <div class="login">
            <p></p>
 <b>
 <input type="button" id="login_button1" class = "login_button" value=" 登 入 " />
@@ -399,14 +370,14 @@ cursor:pointer;
      </form>
      <input type="button" id="ylogin" value="    登     入   "/>
      </div>
-    <div class="signupframe">
+    <div class="signupframe">
 <img id="signuptitle" src="http://lily0714.github.io/book-eat/註冊框頭.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="signupclose" weight="50" height="50">
 <br>
      <form class = "form1">
      <br>
-     帳號:<input type="text" placeholder="請輸入新帳號"><br><br>
-     密碼:<input type="text" placeholder="請輸入新密碼"><br>
+     帳號:<input type="text" placeholder="請輸入新帳號"><br><br>
+     密碼:<input type="text" placeholder="請輸入新密碼"><br>
      </form>
-     <input type="button" id="ysignup" value="    註     冊   "/>
+     <input type="button" id="ysignup" value="    註     冊   "/>
      </div>
 </body>
