@@ -107,7 +107,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
             if(j>=fbImg_len)  j=0;
             if(!isHover){
             //啟動計時器
-            timer = setTimeout("sequentialImage()",4000);
+            timer = setTimeout(sequentialImage,4000);
             }
         });
         $fbaddiv.hover(function(){
@@ -117,7 +117,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         }, function(){
               isHover = false;
               //啟動計時器
-              timer=setTimeout("sequentialImage()",2000);
+              timer=setTimeout(sequentialImage,2000);
         });
        //自動下一個
        function sequentialImage(){ 
@@ -127,7 +127,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
                 if(j>=fbImg_len)  j=0;
         }
         //啟動計時器
-         timer=setTimeout("sequentialImage()",2000);
+         timer=setTimeout(sequentialImage,2000);
 });
 </script>
 <style>
