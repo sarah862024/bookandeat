@@ -123,7 +123,6 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         });
        //自動下一個
        function sequentialImage(){ 
-           if(isHover)return;
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
                 j++;
                 if(j>=fbImg_len)  j=0;
@@ -325,6 +324,7 @@ margin-left:20px;
 position:absolute;
 z-index:5;
 margin-left:40px;
+visibility: visible;
 }
 #fbad-left{
 float:left;
@@ -332,6 +332,7 @@ cursor:pointer;
 }
 #fbad-right{
 float:right;
+
 cursor:pointer;
 }
 </style>
