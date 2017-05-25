@@ -59,8 +59,7 @@ $(document).ready(function() {
         $("#ysignup").css("color", "white");
         $("#ysignup").css("background", "green");
    });
-});
-$(function(){
+},function(){
 
 var jsImg = new Array(7);
 jsImg[0] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
