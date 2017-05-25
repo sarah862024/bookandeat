@@ -74,11 +74,9 @@ jsImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
         var i=0;
         
         function sequentialImg(){   
-            if(isHover) {
             document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=700 height=250>";        
                 i++;
                 if(i>=jsImg_len)  i=0;
-            }
         }
         
         
