@@ -72,7 +72,7 @@ jsImg[5] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
 jsImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A7.png';
         var jsImg_len = jsImg.length; 
         var i=0;
-        setInterval("sequentialImag()",4000);
+        setInterval("sequentialImg()",4000);
         function sequentialImg(){   
             document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=700 height=250>";        
                 i++;
@@ -108,7 +108,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
             if(j>=fbImg_len)  j=0;
             if(!isHover){
             //啟動計時器
-            timer = setInterval("sequentialImge()",4000);
+            timer = setInterval("sequentialImage()",4000);
             }
         });
         $fbaddiv.hover(function(){
@@ -118,7 +118,7 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         }, function(){
               isHover = false;
               //啟動計時器
-              timer =timer = setInterval("sequentialImge()",4000);
+              timer =timer = setInterval("sequentialImage()",4000);
         });
        //自動下一個
        function sequentialImage(){ 
