@@ -99,6 +99,8 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
         var $fbaddiv =$block.find('#fbad_div');
         var isHover = false; 
         var timer=4000,speed=2000;
+         //啟動計時器
+         timer=setTimeout(sequentialImage,2000);
         //點擊下一個
         //滑鼠移入廣告框時click換mouseover
         $next.click(function(){
@@ -126,8 +128,6 @@ fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
                 j++;
                 if(j>=fbImg_len)  j=0;
         }
-        //啟動計時器
-         timer=setTimeout(sequentialImage,2000);
 </script>
 <style>
 body{
