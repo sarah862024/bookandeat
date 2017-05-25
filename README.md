@@ -72,7 +72,7 @@ jsImg[5] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
 jsImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A7.png';
         var jsImg_len = jsImg.length; 
         var i=0;
-        
+        setInterval("sequentialImage()",4000);
         function sequentialImg(){   
             document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=700 height=250>";        
                 i++;
