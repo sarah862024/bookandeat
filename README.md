@@ -60,7 +60,7 @@ $(document).ready(function() {
         $("#ysignup").css("background", "green");
    });
 
-});
+
 
 var jsImg = new Array(7);
 jsImg[0] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png';
@@ -71,12 +71,14 @@ jsImg[4] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%
 jsImg[5] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A6.png';
 jsImg[6] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A7.png';
         var jsImg_len = jsImg.length; 
-        var i=0;                     
-        setInterval("sequentialImg()",4000);
-        function sequentialImg(){       
+        var i=0;
+        
+        function sequentialImg(){   
+            if(isHover) {
             document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=700 height=250>";        
                 i++;
                 if(i>=jsImg_len)  i=0;
+            }
         }
         
         
@@ -95,13 +97,40 @@ fbImg[10] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E
 fbImg[11] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B85.png';
 fbImg[12] = 'https://raw.githubusercontent.com/sarah862024/bookandeat/master/K%E4%B8%AD%E5%8F%83%E8%80%83%E6%9B%B86.png';
         var fbImg_len = fbImg.length; 
-        var j=0;                     
-        setInterval("sequentialImage()",4000);
-        function sequentialImage(){ 
+        var j=0;
+        var $next=$('#fbad-left');
+        var $fbaddiv =$block.find('#fbad_div');
+        var isHover = false; 
+        var timer=4000,speed=2000;
+        //點擊下一個
+        //滑鼠移入廣告框時click換mouseover
+        $next.click(function(){
+            document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
+            j++;
+            if(j>=fbImg_len)  j=0;
+            if(!isHover){
+            //啟動計時器
+            timer = setInterval("sequentialImg()",4000);
+            }
+        });
+        $fbaddiv.hover(function(){
+            isHover = true ;
+            //停止計時器
+            clearInterval(timer);
+        }, function(){
+              isHover = false;
+              //啟動計時器
+              timer =timer = setInterval("sequentialImg()",4000);
+        })
+       //自動下一個
+       function sequentialImage(){ 
             document.getElementById("fbad_div").innerHTML  = "<img src='"+fbImg[j]+"' width=900 height=300>";        
                 j++;
                 if(j>=fbImg_len)  j=0;
         }
+        //啟動計時器
+         timer=setInterval("sequentialImage()",4000);
+});
 </script>
 <style>
 body{
@@ -302,9 +331,11 @@ margin-left:40px;
 }
 #fbad-left{
 float:left;
+cursor:pointer;
 }
 #fbad-right{
 float:right;
+cursor:pointer;
 }
 </style>
 <body onload="sequentialImg();">
