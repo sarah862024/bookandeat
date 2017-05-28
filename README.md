@@ -253,6 +253,7 @@ height:450px;
 #news-title{
 font-size:20px;
 color:green;
+font-family:Microsoft JhengHei;
 }
 .good{
 weight:450px;
