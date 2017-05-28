@@ -1,3 +1,9 @@
+<?php
+mysql_connect("localhost","fat","webproject");//連結伺服器
+mysql_select_db("webproject");//選擇資料庫
+mysql_query("set names utf8");//以utf8讀取資料，讓資料可以讀取中文
+$data=mysql_query("select * from webproject");//從contact資料庫中選擇所有的資料表
+?>
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script type='text/javascript'>
 $(document).ready(function() {
