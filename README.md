@@ -218,6 +218,7 @@ font-family:Microsoft JhengHei;
 font-size:20px;
 border-radius:2px;
 cursor:pointer;
+margin-right:-50px;
 }
 #signuptitle{
 float:left;
