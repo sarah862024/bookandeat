@@ -250,6 +250,10 @@ weight:450px;
 height:450px;
 /*background-color:#0080FF;*/
 }
+p.news{
+text-size:20px;
+color:green;
+}
 .good{
 weight:450px;
 height:450px;
@@ -342,10 +346,10 @@ float:right;
    <p></p>
        <div class="news-good">
             <div class="news">
-                <p>最新動態</p>
+                <p><strong>最新動態</strong></p>
             </div>
             <div class="good">
-                <p>傑出動態</p>
+                <p><strong>傑出動態</strong></p>
             </div>
        </div>
    <p></p>
