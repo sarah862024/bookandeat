@@ -426,8 +426,7 @@ echo  $(".main").animate({opacity:'1'});
 }
 ?>
      </form>
-     <input type="button " id="ylogin" value="    登     入   "/>
-     </div>
+     <input type="button " id="ylogin" value="    登     入   "/></div>
     <div class="signupframe">
 <img id="signuptitle" src="http://lily0714.github.io/book-eat/註冊框頭.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="signupclose" weight="50" height="50">
 <br>
