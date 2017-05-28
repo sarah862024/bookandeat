@@ -261,8 +261,8 @@ height:300px;
 }
 .link{
 weight:900px;
-height:100px;
-background-color:#84C1FF;
+height:170px;
+background-color:#C4E1FF;
 }
 #discount{
 cursor:pointer;
