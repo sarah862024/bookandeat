@@ -348,7 +348,14 @@ float:right;
        <div class="news-good">
             <div class="news">
                 <p id="news-title"><strong>最新動態</strong></p>
-            </div>
+                5/30端午節公休一天<br>
+                7/1~8/31暑假搶先訂位大特惠<br>
+                9/28慶祝教師節，預訂參考書打75折<br>
+                10/10國慶日早上不營業，下午1點開始營業<br>
+                10/31萬聖節來就送美味小糖果<br>
+                12/25聖誕節交換禮物活動<br>
+                12/31~1/1跨年放假兩天<br>
+            </div>
             <div class="good">
                 <p><strong>傑出動態</strong></p>
             </div>
