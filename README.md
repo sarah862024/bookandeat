@@ -131,6 +131,9 @@ weight:160px;
 height:120px;
 
 }
+#yloginmem{
+display:none;
+}
 .menu{
 weight:900px;
 height:50px;
@@ -323,7 +326,13 @@ float:right;
 <body onload="sequentialImg();">
 <div class="main">
    <div class="logo">
-   <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
+   <img src="http://lily0714.github.io/book-eat/bookandeat.png" weight="160" height="120">
+   <div id="yloginmem">您好!
+   <?php
+   if($bol==true){
+   echo $display_block;
+   }
+   ?></div>
    </div>
    <div class="menu">
    <strong>
@@ -388,9 +397,8 @@ float:right;
      <br>
      帳號:<input type="text" placeholder="請輸入帳號" name="id"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼" name="pw"><br>
-     </form>
-     <input type="button" id="ylogin" value="    登     入   "/>
-    <?php //連接資料庫
+     <input type="button submit" id="ylogin" name="sendid" value="    登     入   "/>
+      <?php //連接資料庫
 //只要此頁面上有用到連接MySQL就要include它
 include("mysql_connect.inc.php");$id = $_POST['id'];
 $pw = $_POST['pw'];
@@ -399,17 +407,29 @@ $sql = "SELECT * FROM member_table where username = '$id'";
 $result = mysql_query($sql);
 $row = @mysql_fetch_row($result);
 //判斷帳號與密碼是否為空白//以及MySQL資料庫裡是否有這個會員
+$bol=false;
+$sendid=$_POST['sendid'];
 if($id != null && $pw != null && $row[1] == $id && $row[2] == $pw)
 {
-        //將帳號寫入session，方便驗證使用者身份        $_SESSION['username'] = $id;        echo '登入成功!';
+        //將帳號寫入session，方便驗證使用者身份        $_SESSION['username'] = $id;        echo "登入成功!";
         echo '';
+        $bol=true;
 }
 else
 {
         echo '登入失敗!';
         echo '';
+        $bol=false;
+}
+if($bol==true){
+echo  $(".loginframe").fadeOut("fast");
+echo  $(".main").animate({opacity:'1'});
 }
 ?>
+    
+     </form>
+     
+    
      </div>
     <div class="signupframe">
 <img id="signuptitle" src="http://lily0714.github.io/book-eat/註冊框頭.png" weight="400" height="50"><img src="http://lily0714.github.io/book-eat/登入框關閉.png" id="signupclose" weight="50" height="50">
