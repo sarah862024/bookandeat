@@ -251,7 +251,7 @@ height:450px;
 /*background-color:#0080FF;*/
 }
 p.news{
-text-size:20px;
+font-size:20px;
 color:green;
 }
 .good{
