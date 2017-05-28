@@ -208,7 +208,7 @@ right:1px;
 #ylogin{
 float:right;
 position:relative;
-right:50px;
+right:20px;
 bottom:-10px;
 color:white;
 background:green;
@@ -425,7 +425,7 @@ echo  $(".main").animate({opacity:'1'});
 }
 ?>
      </form>
-     <input type="button submit" id="ylogin" value="    登     入   "/>
+     <input type="button " id="ylogin" value="    登     入   "/>
      
     
      </div>
