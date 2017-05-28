@@ -397,7 +397,6 @@ float:right;
      <br>
      帳號:<input type="text" placeholder="請輸入帳號" name="id"><br><br>
      密碼:<input type="text" placeholder="請輸入密碼" name="pw"><br>
-     <input type="button submit" id="ylogin" name="sendid" value="    登     入   "/>
       <?php //連接資料庫
 //只要此頁面上有用到連接MySQL就要include它
 include("mysql_connect.inc.php");$id = $_POST['id'];
@@ -428,6 +427,7 @@ echo  $(".main").animate({opacity:'1'});
 ?>
     
      </form>
+     <input type="button submit" id="ylogin" name="sendid" value="    登     入   "/>
      
     
      </div>
