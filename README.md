@@ -349,7 +349,7 @@
          <div class="news-good">
               <div class="news">
                   <p id="news-title"><strong>最新動態</strong></p>
-                  5/30端午節公休一天<br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/新文字文件.html" 5/30端午節公休一天></a><br/><br/>
                   7/1~8/31暑假搶先訂位大特惠<br/><br/>
                   9/28慶祝教師節，預訂參考書打75折<br/><br/>
                   10/10國慶日早上不營業，下午1點開始營業<br/><br/>
