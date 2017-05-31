@@ -36,6 +36,7 @@ $(document).ready(function(){
         $("#pichh").fadeIn("fast");
         }
 });
+</script>
 <style>
  
 body{
