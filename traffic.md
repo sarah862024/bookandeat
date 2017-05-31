@@ -65,7 +65,19 @@ top:8px;
  <br>
  <strong>
    <center>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.960386358131!2d121.43029391447648!3d25.03541838397169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7c29f60230d%3A0x9cb1bcc0d1fcc03d!2z6LyU5LuB5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1496235541106" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <p> 捷運站及公車轉乘班次資訊<br/>
+台北車站捷運站: 513 <br/>
+台大醫院捷運站: 513<br/>
+西門捷運站: 235、513、635、637、藍2<br/>
+民權西路捷運站: 636、638、801<br/> 
+新埔捷運站: 99、802、842、845<br/> 
+輔大捷運站 :<br/>
+1. 輔仁大學門口公車站: 藍2、橘21、99、111、235、635、363、637、638、639、663、801、802、<br/>
+810、842、845、藍2、1501、1502、1503、1508、1510、1515、1803、5009、5075、5675、9102<br/>
+2. 三重客運輔大站: 513<br/>
+3. 建國一路輔大站: 299、615、618<br/>
+</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.960386358131!2d121.43029391447648!3d25.03541838397169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7c29f60230d%3A0x9cb1bcc0d1fcc03d!2z6LyU5LuB5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1496235541106" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </center>
     </strong>
      </div>
