@@ -35,6 +35,10 @@ $(document).ready(function(){
         function partDH() {
         $("#pichh").fadeIn("fast");
         }
+        window.setTimeout(partFB,4500);
+        function partFB() {
+        $(".ourfb").fadeIn("fast");
+        }
 });
 </script>
 <style>
@@ -101,7 +105,9 @@ display:none;
 #pichh{
 display:none;
 }
-
+.ourfb{
+display:none;
+}
 </style>
 <body>
 <div class="main">
@@ -152,7 +158,7 @@ display:none;
 <img id="pichh" src="https://raw.githubusercontent.com/zx85010442/book-eat-About-Us/master/H.jpg" weight="210" height="210">
     </div>
     </div>
-        <div class="row">
+        <div class="row ourfb">
      <div class="col-xs-8">
 <a href="https://www.facebook.com/profile.php?id=100000566121319&fref=ts">
 <img id="piclfb" src="https://raw.githubusercontent.com/zx85010442/book-eat-About-Us/master/fb.png" weight="210" height="155"> &emsp;&emsp;</a>
