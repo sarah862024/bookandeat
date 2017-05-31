@@ -323,7 +323,7 @@
     <strong>
     <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
     <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
-    <a href="https://zx85010442.github.io/bookandeat/about-us/" target="_self" style="text-decoration:none;color:black;">
+    <a href="https://sarah862024.github.io/bookandeat/about-us/" target="_self" style="text-decoration:none;color:black;">
     <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;</nobr></a> 
     <nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;</nobr>
     <nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;</nobr>
