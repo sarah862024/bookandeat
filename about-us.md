@@ -80,7 +80,7 @@ weight:1000px;
  
 height:1200px;
  
-background-image:url("https://lily0714.github.iobook-eat/全底圖1.png");
+background-image:url("https://lily0714.github.io/book-eat/全底圖1.png");
  
 background-repeat:no-repeat;
  
@@ -113,5 +113,5 @@ z-index:-1;
      </div>
 </div> 
 </div>           
-<img id="discount" src="https://lily0714.github.iobook-eat/包月打八折正式.png" weight="130" height="160">     
+<img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">     
 </body>
