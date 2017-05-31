@@ -323,7 +323,7 @@
     <strong>
     <a href="https://sarah862024.github.io/bookandeat/" target="_self" style="text-decoration:none;color:black;">
     <nobr class="information" id="homepage">&emsp;&emsp;首  頁&nbsp;&emsp;</nobr></a>
-    <a href="https://zx85010442.github.io/book-eat-About-Us/" target="_self" style="text-decoration:none;color:black;">
+    <a href="https://zx85010442.github.io/bookandeat/about-us/" target="_self" style="text-decoration:none;color:black;">
     <nobr class="information" id="know us">&nbsp;&emsp;&emsp;認識我們&nbsp;&emsp;</nobr></a> 
     <nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;</nobr>
     <nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;</nobr>
@@ -349,7 +349,7 @@
          <div class="news-good">
               <div class="news">
                   <p id="news-title"><strong>最新動態</strong></p>
-                  <a href="https://sarah862024.github.io/bookandeat/新文字文件"> 5/30端午節公休一天</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/新文字文件/"> 5/30端午節公休一天</a><br/><br/>
                   7/1~8/31暑假搶先訂位大特惠<br/><br/>
                   9/28慶祝教師節，預訂參考書打75折<br/><br/>
                   10/10國慶日早上不營業，下午1點開始營業<br/><br/>
