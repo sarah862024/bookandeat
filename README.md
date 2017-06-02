@@ -351,14 +351,14 @@
               <div class="news">
                   <p id="news-title"><strong>最新動態</strong></p>
                   <a href="https://sarah862024.github.io/bookandeat/新文字文件"> 5/30端午節公休一天</a><br/><br/>
-                  7/1~8/31暑假搶先訂位大特惠<br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/暑假搶先訂位">7/1~8/31暑假搶先訂位大特惠</a><br/><br/>
                   9/28慶祝教師節，預訂參考書打75折<br/><br/>
                   10/10國慶日早上不營業，下午1點開始營業<br/><br/>
                   10/31萬聖節來就送美味小糖果<br/><br/>
                   12/25聖誕節交換禮物活動<br/><br/>
                   12/31~1/1跨年放假兩天<br/>
-                  
-              </div>
+                                      更多公告
+              </div>
               <div class="good">
                  <p><strong>傑出動態</strong></p>
              </div>
