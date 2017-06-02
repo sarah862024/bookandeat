@@ -346,6 +346,9 @@ if(isset($_POST["username"]) && isset($_POST["passwd"])){
  z-index:5;
  margin-left:20px;
  }
+ #announcement{
+ position:relative;
+ right:0px;}
  #fbad_div{
  position:absolute;
  z-index:5;
@@ -401,7 +404,7 @@ if(isset($_POST["username"]) && isset($_POST["passwd"])){
                   <a href="https://sarah862024.github.io/bookandeat/萬聖節活動">10/31萬聖節來就送美味小糖果</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/聖誕節活動">12/25聖誕節交換禮物活動</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/跨年不營業">12/31~1/1跨年放假兩天</a><br/>
-                  <a href="https://sarah862024.github.io/bookandeat/公告列表">更多公告</a>
+                  <a id="announcement" href="https://sarah862024.github.io/bookandeat/公告列表">更多公告</a>
               </div>
               <div class="good">
                  <p><strong>傑出動態</strong></p>
