@@ -319,13 +319,13 @@
  #fbad-right{
  float:right;
  }
- /* 未連結 */
+/* 已連結過 */
 a:link{
 color: green;
 }
-/* 已連結過 */
+/* 未連結 */
 a:visited{
-color: #808000;
+color: #2E8B57;
 }
 /* 滑鼠移至連結 */
 a:hover{
