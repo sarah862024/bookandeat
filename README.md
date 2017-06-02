@@ -318,6 +318,22 @@
  #fbad-right{
  float:right;
  }
+ /* 未連結 */
+a:link{
+color: green;
+}
+/* 已連結過 */
+a:visited{
+color: #808000;
+}
+/* 滑鼠移至連結 */
+a:hover{
+color: #adff2f;
+}
+/* 選擇的連結 */
+a:active{
+color: orange;
+}
  </style>
  <body onload="sequentialImg();">
  <div class="main">
