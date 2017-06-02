@@ -349,7 +349,7 @@ if(isset($_POST["username"]) && isset($_POST["passwd"])){
  }
  #announcement{
  position:relative;
- left:250px;
+ left:300px;
  }
  #fbad_div{
  position:absolute;
