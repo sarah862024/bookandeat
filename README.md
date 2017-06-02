@@ -394,7 +394,7 @@ if(isset($_POST["username"]) && isset($_POST["passwd"])){
          <div class="news-good">
               <div class="news">
                   <p id="news-title"><strong>最新動態</strong></p>
-                  <a href="https://sarah862024.github.io/bookandeat/新文字文件"> 5/30端午節公休一天</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/端午不營業"> 5/30端午節公休一天</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/暑假搶先訂位">7/1~8/31暑假搶先訂位大特惠</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/教師節訂書打75折">9/28慶祝教師節，預訂參考書打75折</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/國慶營業時間">10/10國慶日早上不營業，下午1點開始營業</a><br/><br/>
