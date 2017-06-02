@@ -260,6 +260,7 @@
  weight:450px;
  height:450px;
  /*background-color:#9D9D9D;*/
+ float:right;
  }
  .fbad{
  weight:900px;
