@@ -356,7 +356,7 @@
                   <a href="https://sarah862024.github.io/bookandeat/國慶營業時間">10/10國慶日早上不營業，下午1點開始營業</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/萬聖節活動">10/31萬聖節來就送美味小糖果</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/聖誕節活動">12/25聖誕節交換禮物活動</a><br/><br/>
-                  12/31~1/1跨年放假兩天<br/>
+                  <a href="https://sarah862024.github.io/bookandeat/跨年不營業">12/31~1/1跨年放假兩天</a><br/>
                                                       更多公告
               </div>
               <div class="good">
