@@ -320,6 +320,7 @@ if(isset($_POST["username"]) && isset($_POST["passwd"])){
  bottom: 0;
  right: 0;
  background-color:transparent;	
+ z-index:20;
  }
  .information:hover{
  color:green;
@@ -348,7 +349,8 @@ if(isset($_POST["username"]) && isset($_POST["passwd"])){
  }
  #announcement{
  position:relative;
- right:0px;}
+ left:50px;
+ }
  #fbad_div{
  position:absolute;
  z-index:5;
