@@ -66,7 +66,7 @@ top:8px;
 <div class = "bigback">
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 如何預約位置?<br/>
-<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A.png">
+<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
 如果是新會員，請按註冊鍵，如果已經註冊，請按登入鍵。<br/>
 </div>
 </div>          
