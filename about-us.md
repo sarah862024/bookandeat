@@ -77,7 +77,7 @@ top:8px;
 display:none;
 font-family:Microsoft JhengHei;
 weight:900px;
-height:500px;
+height:600px;
 align:center;
 background-color:pink;
 font-size:20px;
