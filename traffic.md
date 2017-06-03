@@ -60,15 +60,22 @@ top:8px;
  <br>
  <br>
  <strong>
+ <p class = "TT">Google Map</p>
  <center>
  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.960386358131!2d121.43029391447648!3d25.03541838397169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7c29f60230d%3A0x9cb1bcc0d1fcc03d!2z6LyU5LuB5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1496235541106" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
  </center>
   <p class = "TT">地理位置</p>
+  <center>
   <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE.jpg">
+  </center>
   <p class = "TT">公車站牌位置圖</p>
+  <center>
   <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E5%85%AC%E8%BB%8A%E7%AB%99%E7%89%8C%E4%BD%8D%E7%BD%AE%E5%9C%96.jpg">
+  </center>
   <p class = "TT">公車路線</p>
+  <center>
   <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E5%85%AC%E8%BB%8A%E8%B7%AF%E7%B7%9A.jpg">
+  </center>
   <p class = "TT"> 捷運站及公車轉乘班次資訊</p>
 台北車站捷運站: 513<br/>
 台大醫院捷運站: 513<br/>
@@ -81,7 +88,9 @@ top:8px;
 2. 三重客運輔大站: 513<br/>
 3. 建國一路輔大站: 299、615、618<br/>
 <p class = "TT">捷運路線</p>
+<center>
   <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E6%8D%B7%E9%81%8B%E8%B7%AF%E7%B7%9A.jpg">
+  </center>
 </strong>
 </div>
 </div> 
