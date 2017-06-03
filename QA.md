@@ -64,7 +64,10 @@ top:8px;
 <nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;</nobr></a><br> </strong>   
 </div>
 <div class = "bigback">
-
+<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
+如何預約位置?<br/>
+<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A.png">
+如果是新會員，請按註冊鍵，如果已經註冊，請按登入鍵。<br/>
 </div>
 </div>          
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
