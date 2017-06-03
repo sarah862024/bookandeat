@@ -261,7 +261,6 @@
  weight:450px;
  height:450px;
  /*background-color:#9D9D9D;*/
- float:right;
   font-family:Microsoft JhengHei;
  }
  .fbad{
@@ -381,7 +380,7 @@ color: orange;
                   <a href="https://sarah862024.github.io/bookandeat/announcement/萬聖節活動" style="text-decoration:none;">10/31萬聖節來就送美味小糖果</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/announcement/聖誕節活動" style="text-decoration:none;">12/25聖誕節交換禮物活動</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/announcement/跨年不營業" style="text-decoration:none;">12/31~1/1跨年放假兩天</a><br/>
-                  <a id="announcement" href="https://sarah862024.github.io/bookandeat/公告列表" style="text-decoration:none;">更多公告&emsp;&emsp;</a>
+                  <a id="announcement" href="https://sarah862024.github.io/bookandeat/公告列表" style="text-decoration:none;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;更多公告</a>
               </div>
               <div class="good">
                  <p><strong>傑出動態</strong></p>
