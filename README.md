@@ -372,14 +372,14 @@ color: orange;
          <div class="news-good">
               <div class="news">
                   <p id="news-title"><strong>最新動態</strong></p>
-                  <a href="https://sarah862024.github.io/bookandeat/announcement/端午不營業"> 5/30端午節公休一天</a><br/><br/>
-                  <a href="https://sarah862024.github.io/bookandeat/announcement/暑假搶先訂位">7/1~8/31暑假搶先訂位大特惠</a><br/><br/>
-                  <a href="https://sarah862024.github.io/bookandeat/announcement/教師節訂書打75折">9/28慶祝教師節，預訂參考書打75折</a><br/><br/>
-                  <a href="https://sarah862024.github.io/bookandeat/announcement/國慶營業時間">10/10國慶日早上不營業，下午1點開始營業</a><br/><br/>
-                  <a href="https://sarah862024.github.io/bookandeat/announcement/萬聖節活動">10/31萬聖節來就送美味小糖果</a><br/><br/>
-                  <a href="https://sarah862024.github.io/bookandeat/announcement/聖誕節活動">12/25聖誕節交換禮物活動</a><br/><br/>
-                  <a href="https://sarah862024.github.io/bookandeat/announcement/跨年不營業">12/31~1/1跨年放假兩天</a><br/>
-                  <a id="announcement" href="https://sarah862024.github.io/bookandeat/公告列表">更多公告</a>
+                  <a href="https://sarah862024.github.io/bookandeat/announcement/端午不營業" style="text-decoration:none;"> 5/30端午節公休一天</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/announcement/暑假搶先訂位" style="text-decoration:none;">7/1~8/31暑假搶先訂位大特惠</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/announcement/教師節訂書打75折" style="text-decoration:none;">9/28慶祝教師節，預訂參考書打75折</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/announcement/國慶營業時間" style="text-decoration:none;">10/10國慶日早上不營業，下午1點開始營業</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/announcement/萬聖節活動" style="text-decoration:none;">10/31萬聖節來就送美味小糖果</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/announcement/聖誕節活動" style="text-decoration:none;">12/25聖誕節交換禮物活動</a><br/><br/>
+                  <a href="https://sarah862024.github.io/bookandeat/announcement/跨年不營業" style="text-decoration:none;">12/31~1/1跨年放假兩天</a><br/>
+                  <a id="announcement" href="https://sarah862024.github.io/bookandeat/公告列表" style="text-decoration:none;">更多公告</a>
               </div>
               <div class="good">
                  <p><strong>傑出動態</strong></p>
