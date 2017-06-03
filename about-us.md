@@ -130,8 +130,6 @@ display:none;
 <div class = "bigback">
   <div class="about" id="div2">
  <br>
- <br>
- <br>
  <strong>
    <center>
            我們創立這個K書中心( 博客來一客 Book and Eat )是為了讓每個需要&emsp;&emsp;&emsp;&emsp;<br><br>
