@@ -80,6 +80,7 @@ weight:900px;
 height:500px;
 align:center;
 background-color:pink;
+font-size:20px;
 }
 #picl{
 display:none;
