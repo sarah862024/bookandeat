@@ -352,8 +352,9 @@ color: orange;
     <nobr class="information" id="book seat">&nbsp;&emsp;&emsp;預約座位&nbsp;&emsp;</nobr>
     <a href="https://sarah862024.github.io/bookandeat/traffic" target="_self" style="text-decoration:none;color:black;">
     <nobr class="information" id="traffic">&nbsp;&emsp;&emsp;交通位置&nbsp;&emsp;</nobr></a>
-    <nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;</nobr>
-    <nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;</nobr><br> </strong>
+    <a href="https://sarah862024.github.io/bookandeat/QA" target="_self" style="text-decoration:none;color:black;">
+    <nobr class="information" id="QA">&nbsp;&emsp;&emsp;常見問題&nbsp;&emsp;</nobr></a>
+    <nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;</nobr><br> </strong>
     </div>
     <div class = "bigback">
     <div class="ad-login">
