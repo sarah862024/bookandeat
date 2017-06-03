@@ -373,7 +373,6 @@ color: orange;
  </b>
         </div>
    </div>
-    <p></p>
          <div class="news-good">
               <div class="news">
                   <p id="news-title"><strong>最新動態</strong></p>
