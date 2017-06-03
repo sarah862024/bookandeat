@@ -262,6 +262,7 @@
  height:450px;
  /*background-color:#9D9D9D;*/
   font-family:Microsoft JhengHei;
+  float:right;
  }
  .fbad{
  weight:900px;
@@ -307,7 +308,7 @@
  }
  #announcement{
  position:relative;
- left:300px;
+ left:250px;
  }
  #fbad_div{
  position:absolute;
