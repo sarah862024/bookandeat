@@ -78,10 +78,6 @@ font-family:Microsoft JhengHei;
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
 進入預約座位的頁面，預約完位置之後，就可以預訂美食和參考書。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
-沒有餘額了怎麼辦?<br/>
-<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-請至便利超商或K中櫃檯儲值。<br/><br/>
-<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 如果食物及飲料把念書環境弄髒了怎麼辦?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
 可以按下服務鈴，請服務人員整理，並繳交20元清潔費。<br/><br/>
@@ -105,10 +101,6 @@ font-family:Microsoft JhengHei;
 想用電腦查詢資料怎麼辦?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
 我們有提供電腦的租借服務。<br/><br/>
-<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
-如何找到(Book and Eat)K書中心?<br/>
-<img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-請查詢網址相關內容。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 有沒有緊急狀況處理?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
