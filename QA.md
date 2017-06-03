@@ -69,51 +69,50 @@ font-family:Microsoft JhengHei;
 </div>
 <div class = "bigback" >
 <br/>
-<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 如何預約位置?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-如果是新會員，請按註冊鍵，如果已經註冊，請按登入鍵。<br/>
+如果是新會員，請按註冊鍵，如果已經註冊，請按登入鍵。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 如何預訂美食與參考書?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-進入預約座位的頁面，預約完位置之後，就可以預訂美食和參考書。<br/>
+進入預約座位的頁面，預約完位置之後，就可以預訂美食和參考書。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 沒有餘額了怎麼辦?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-請至便利超商或K中櫃檯儲值。<br/>
+請至便利超商或K中櫃檯儲值。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 如果食物及飲料把念書環境弄髒了怎麼辦?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-可以按下服務鈴，請服務人員整理，並繳交20元清潔費。<br/>
+可以按下服務鈴，請服務人員整理，並繳交20元清潔費。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 可不可以預約除了今天以外的時間?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-可以，只要點選您所需要的日期(一周內)及時間。<br/>
+可以，只要點選您所需要的日期(一周內)及時間。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 可不可以單人預約多人共讀桌或團體討論室?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-可以，但是我們的價錢還是相同喔。<br/>
+可以，但是我們的價錢還是相同喔。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 我們可以使用書籍除菌器嗎?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-當然可以，只要把書放進去再按下按鈕即可。<br/>
+當然可以，只要把書放進去再按下按鈕即可。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 沒戴耳機卻想聽音樂或看影片怎麼辦?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-可以向櫃檯人員租借。<br/>
+可以向櫃檯人員租借。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 想用電腦查詢資料怎麼辦?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-我們有提供電腦的租借服務。<br/>
+我們有提供電腦的租借服務。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 如何找到(Book and Eat)K書中心?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-請查詢網址相關內容。<br/>
+請查詢網址相關內容。<br/><br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 有沒有緊急狀況處理?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
-請洽客服人員:02-29052000。<br/>
+請洽客服人員:02-29052000。<br/><br/>
 </div>
 </div>          
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
