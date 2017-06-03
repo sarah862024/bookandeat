@@ -19,7 +19,7 @@ background-color:#FFFFFF;
 }
 .bigback{
  weight:1000px;
- height:1200px;
+ height:1400px;
  background-image:url("https://lily0714.github.io/book-eat/全底圖1.png");
  background-repeat:no-repeat;
  background-color:transparent;
