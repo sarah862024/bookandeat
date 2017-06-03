@@ -68,7 +68,6 @@ font-family:Microsoft JhengHei;
 <nobr class="information" id="comment">&nbsp;&emsp;&emsp;意見回饋&nbsp;&emsp;</nobr></a><br> </strong>   
 </div>
 <div class = "bigback" >
-<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Q.png">
 如何預約位置?<br/>
 <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/A1.png">
