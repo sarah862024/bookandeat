@@ -57,8 +57,6 @@ top:8px;
 <div class = "bigback">
   <div class="about" id="div2">
  <br>
- <br>
- <br>
  <strong>
  <p class = "TT">Google Map</p>
  <center>
