@@ -36,6 +36,9 @@ top:8px;
  .about{
  font-family:Microsoft JhengHei;
  }
+ .TT{
+ font-size:24px;
+ }
 </style>
 <body>
 <div class="main">
@@ -57,7 +60,9 @@ top:8px;
  <br>
  <br>
  <strong>
+ <center>
  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.960386358131!2d121.43029391447648!3d25.03541838397169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7c29f60230d%3A0x9cb1bcc0d1fcc03d!2z6LyU5LuB5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1496235541106" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </center>
   <p class = "TT">地理位置</p>
   <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE.jpg">
   <p class = "TT">公車站牌位置圖</p>
