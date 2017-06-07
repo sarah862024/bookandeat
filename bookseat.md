@@ -290,9 +290,7 @@ top: 242px;
        <option value="C9">討論室C9</option>
        </select>
        <input type="submit" value="預約">
-          
- 
-    
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" float:left>
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
  
      
