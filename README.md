@@ -243,7 +243,7 @@
  .news-good{
  weight:900px;
  height:450px;
- background-color:white;
+ background-color:#eaecef;
  opacity:0.8;
  }
  .news{
