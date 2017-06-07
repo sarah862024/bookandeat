@@ -103,7 +103,7 @@ position:relative;
 }
 .select{
 weight:400px;
-height:800px;
+height:500px;
 position:relative;
 left:50px;
 }
