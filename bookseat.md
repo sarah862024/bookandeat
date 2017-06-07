@@ -292,9 +292,9 @@ float:left;
        <optgroup label="討論室">
        <option value="C9">討論室C9</option>
        </select>
-       <input type="submit" value="預約">
-       </form>
+       </form>
        </div>
+       <input type="submit" value="預約">
        <br/>
        <br/>
        <br/>
