@@ -1,7 +1,7 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
  <script type='text/javascript'>
  function photos(){
-       document.getElementById("MyImage").src = "https://github.com/sarah862024/bookandeat/edit/master/"+add_gbooks.photo.value;
+       document.getElementById("MyImage").src = "https://github.com/sarah862024/bookandeat/edit/master/" + add_gbooks.photo.value;
        document.getElementById("MyImage").style.display = "";
        }
  </script>
