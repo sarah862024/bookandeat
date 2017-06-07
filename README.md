@@ -243,6 +243,8 @@
  .news-good{
  weight:900px;
  height:450px;
+ background-color:white;
+ opacity:0.8;
  }
  .news{
  float:left;
