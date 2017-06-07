@@ -298,7 +298,7 @@ float:left;
        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
        <div>
        <strong>
-<p id="regtitle">預約食物</p><br/><br/><br/><br/></strong>
+<p id="regtitle">預約食物</p><br/><br/><br/></strong>
     <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
     蒜味奶油鮮蝦墨魚義大利麵<br/>
     <form>
