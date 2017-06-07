@@ -248,7 +248,6 @@
  float:left;
  weight:450px;
  height:450px;
- /*background-color:#0080FF;*/
  margin-left:20px;
   font-family:Microsoft JhengHei;
  }
@@ -264,7 +263,6 @@
  .good{
  weight:450px;
  height:450px;
- /*background-color:#9D9D9D;*/
   font-family:Microsoft JhengHei;
   float:right;
   color:green;
@@ -380,8 +378,9 @@ color: orange;
    </div>
        <p></p>
          <div class="news-good">
+         <strong>
               <div class="news">
-                  <p class="news-title"><strong>最新動態</strong></p>
+                  <p class="news-title">最新動態</p>
 <a href="https://sarah862024.github.io/bookandeat/announcement/端午不營業" style="text-decoration:none;">5/30端午節公休一天</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/announcement/暑假搶先訂位" style="text-decoration:none;">7/1~8/31暑假搶先訂位大特惠</a><br/><br/>
                   <a href="https://sarah862024.github.io/bookandeat/announcement/教師節訂書打75折" style="text-decoration:none;">9/28慶祝教師節，預訂參考書打75折</a><br/><br/>
@@ -392,7 +391,7 @@ color: orange;
                   <a id="announcement" href="https://sarah862024.github.io/bookandeat/公告列表" style="text-decoration:none;">更多公告</a>
               </div>
               <div class="good">
-                 <p class="news-title" id="goodtitle"><strong>傑出動態</strong></p>
+                 <p class="news-title" id="goodtitle">傑出動態</p>
                  環境舒適，網友大力推薦(4.7顆星/5顆星)<br/><br/>
                  衛生環境及廁所榮獲環保署評價特優級!<br/><br/>
                  隔音採用高性能防音綠建材，達到隔音、吸音及防振!&emsp;&emsp;&emsp;<br/><br/>
@@ -401,8 +400,9 @@ color: orange;
                  通過政府機關合格檢定榮譽保證<br/><br/>
                  多所學校指定簽約的優良店家<br/><br/>
              </div>
+        </strong>
         </div>
-    <p></p>
+    <p></p>
         <div class="fbad">
  <img id="fbad-left" src="https://sarah862024.github.io/bookandeat/左.png" weight="50" height="300"><div id="fbad_div" ></div><img id="fbad-right" src="https://sarah862024.github.io/bookandeat/右.png" weight="50" height="300"> 
         </div>
