@@ -105,6 +105,7 @@ position:relative;
 weight:400px;
 height:500px;
 position:relative;
+left:50px;
 }
 .s{
 weight:125px;
