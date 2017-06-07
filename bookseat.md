@@ -317,9 +317,9 @@ float:left;
        <option value="A10">9份</option>
        <option value="A11">10份</option>
        </select>
-       <input type="submit" value="預約">
-    </form>
+           </form>
     </div>
+       <input type="submit" value="預約">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
 </div>
 
