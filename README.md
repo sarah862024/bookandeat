@@ -263,6 +263,7 @@
  /*background-color:#9D9D9D;*/
   font-family:Microsoft JhengHei;
   float:right;
+  color:green;
  }
  .fbad{
  weight:900px;
