@@ -257,6 +257,10 @@
  color:green;
  font-family:Microsoft JhengHei;
  }
+ #goodtitle{
+ position:relative;
+ left:4px;
+ }
  .good{
  weight:450px;
  height:450px;
@@ -388,10 +392,10 @@ color: orange;
                   <a id="announcement" href="https://sarah862024.github.io/bookandeat/公告列表" style="text-decoration:none;">更多公告</a>
               </div>
               <div class="good">
-                 <p class="news-title"><strong>傑出動態</strong></p>
+                 <p class="news-title" id="goodtitle"><strong>傑出動態</strong></p>
                  環境舒適，網友大力推薦(4.7顆星/5顆星)<br/><br/>
                  衛生環境及廁所榮獲環保署評價特優級!<br/><br/>
-                 隔音採用高性能防音綠建材，達到隔音、吸音及防振!&emsp;&emsp;<br/><br/>
+                 隔音採用高性能防音綠建材，達到隔音、吸音及防振!&emsp;&emsp;&emsp;<br/><br/>
                  全台灣唯一提供食物的K書中心<br/><br/>
                  最佳友善公共空間<br/><br/>
                  通過政府機關合格檢定榮譽保證<br/><br/>
