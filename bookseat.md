@@ -311,11 +311,8 @@ float:left;
        <option value="A11">10份</option>
        </select>
        <input type="submit" value="預約">
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
     </form>
     </div>
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
- 
-     
+</div>
+
