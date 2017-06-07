@@ -295,14 +295,8 @@ float:left;
        </form>
        </div>
        <input type="submit" value="預約">
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <div>
+       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+       <div>
     <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
     蒜味奶油鮮蝦墨魚義大利麵<br/>
     <form>
@@ -321,5 +315,5 @@ float:left;
     </div>
        <input type="submit" value="預約">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
-</div>
+
 
