@@ -295,7 +295,7 @@ float:left;
        </form>
        </div>
        <input type="submit" value="預約">
-       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
        <div>
        <strong>
 <p id="regtitle">預約座位</p><br/><br/><br/><br/></strong>
