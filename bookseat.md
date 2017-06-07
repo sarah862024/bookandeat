@@ -245,7 +245,8 @@ top: 242px;
 <div class = "bigback">
 <div class="announcement">
 <br/>
-<p id="regtitle">預約座位</p><br/><br/><br/><br/>
+<strong>
+<p id="regtitle">預約座位</p><br/><br/><br/><br/></strong>
   <div class="single">
      <div class="singleseat ">
         <div class="s" id="s1">A1</div>    
