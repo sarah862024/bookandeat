@@ -220,6 +220,9 @@ position: relative;
 left:-137px;
 top: 242px;
 }
+.foodimg{
+float:left;
+}
 </style>
  
 <body> 
@@ -290,7 +293,26 @@ top: 242px;
        <option value="C9">討論室C9</option>
        </select>
        <input type="submit" value="預約">
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" float:left>
+       <div>
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
+    蒜味奶油鮮蝦墨魚義大利麵<br/>
+    <form>
+       <select style="width:150px" name="Yourfood">
+　     <option value="A1">1份</option>
+　     <option value="A2">2份</option>
+　     <option value="A3">3份</option>
+　     <option value="A4">4份</option>
+       <option value="A6">6份</option>
+       <option value="A7">7份</option>
+       <option value="A8">8份</option>
+       <option value="A10">9份</option>
+       <option value="A11">10份</option>
+       </select>
+       <input type="submit" value="預約">
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
+    </div>
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
  
      
