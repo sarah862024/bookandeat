@@ -259,7 +259,7 @@
  }
  #goodtitle{
  position:relative;
- left:4px;
+ left:68px;
  }
  .good{
  weight:450px;
