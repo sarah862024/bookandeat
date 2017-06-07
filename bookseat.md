@@ -1,3 +1,10 @@
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+ <script type='text/javascript'>
+ function photos(){
+       document.getElementById("MyImage").src = "https://github.com/sarah862024/bookandeat/edit/master/"+add_gbooks.photo.value;
+       document.getElementById("MyImage").style.display = "";
+       }
+ </script>
 <style>
  
 body{
@@ -300,7 +307,7 @@ float:left;
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
     <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
-    蒜味奶油鮮蝦墨魚義大利麵<br/>
+    蒜味奶油鮮蝦<img style="display:none" id="MyImage">墨魚義大利麵<br/>
     <form>
        <select style="width:150px" name="Yourfood">
 　     <option value="A1">1份</option>
@@ -316,6 +323,12 @@ float:left;
            </form>
     </div>
        <input type="submit" value="預約">
+       <select size="1" name="photo" onchange="photos(this);"> 
+       <option>請選擇 </option>
+       <option value="義大利麵.png">1</option> 
+       <option value="K中食物1.png">2</option> 
+       </select>
+       <img style="display:none" id="MyImage">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
 
 
