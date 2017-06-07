@@ -92,6 +92,7 @@ top:8px;
 <center>
   <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E6%8D%B7%E9%81%8B%E8%B7%AF%E7%B7%9A.jpg">
   </center>
+<a href="http://www.fju.edu.tw/aboutFju.jsp?labelID=9" style="text-decoration:none;float:right;">資料來源點這裡</a>
 </strong>
 </div>
 </div> 
