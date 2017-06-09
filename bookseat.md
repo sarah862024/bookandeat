@@ -306,8 +306,7 @@ float:left;
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
    
    <form name="myForm" action="xx" method="post">
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" >
-    <img name="face" id="MyImage" class= "foodimg" display:none><br/>
+    <img name="face" id="MyImage" class= "foodimg" ><br/>
        <select name="icon" onchange="back_c()" class="I" style="width:150px" >
 　     <option value="1" selected="selected">ICON01</option>
 <option value="Web%20k中廣告1">ICON02</option>
