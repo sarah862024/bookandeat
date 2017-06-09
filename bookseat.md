@@ -333,7 +333,7 @@ float:left;
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
-  
+  </select>
 <img class="game-picture" alt="Logo of chosen game" id="select-game-picture">
        </select>
            </form>
