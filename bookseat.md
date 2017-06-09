@@ -1,7 +1,7 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
  <script type='text/javascript'>
 
-function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src="img/1.jpg"; }else{ document.face.src="img/"+document.myForm.icon.value+".jpg"; } }
+function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src=https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }else{ document.face.src="https://github.com/sarah862024/bookandeat/edit/master/"+document.myForm.icon.value+".png"; } }
  </script>
 <style>
  
@@ -310,7 +310,7 @@ float:left;
     <img name="face" id="MyImage" class= "foodimg" ><br/>
        <select name="icon" onchange="back_c()" class="I" style="width:150px" >
 　     <option value="1" selected="selected">ICON01</option>
-<option value="2">ICON02</option>
+<option value="Web%20k中廣告1">ICON02</option>
 <option value="3">ICON03</option>
 <option value="4">ICON04</option>
 <option value="5">ICON05</option>
