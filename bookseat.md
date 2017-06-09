@@ -1,8 +1,8 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script>
-function myFunction() {
-   if(document.forms.value==1) {document.images[0]}
-   else if(document.forms.value==2){document.images[1]}
+function myFunction(values) {
+   if(value==1) {document.images[0]}
+   else if(value==2){document.images[1]}
 }
 </script>
 
@@ -309,9 +309,10 @@ float:left;
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
    
    <form  action="xx" method="post">
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" >
+    
     <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png" ><br/>
-       <select name="icon" class="I" style="width:150px" onchange="myFunction()" >
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" >
+       <select name="icon" class="I" style="width:150px" onchange="myFunction(values)" >
 　     <option value="1" >ICON01</option>
 <option value="2">ICON02</option>
 <option value="3">ICON03</option>
