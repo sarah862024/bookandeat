@@ -1,7 +1,7 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
  <script type='text/javascript'>
 
-function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src=https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }else{ document.face.src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/"+document.myForm.icon.value+".png"; } }
+function back_c(){ if (document.forms.icon.value=="1"){ document.face.src=https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }else{ document.face.src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/"+document.forms.icon.value+".png"; } }
  </script>
 <style>
  
@@ -59,7 +59,7 @@ bottom:0;
  right:0; 
 background-color:transparent;	
 }
-.information:hover{
+.ination:hover{
 color:green;
 cursor:pointer;
 }
@@ -305,7 +305,7 @@ float:left;
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
    
-   <form name="myForm" action="xx" method="post">
+   <form  action="xx" method="post">
     <img name="face" id="MyImage" class= "foodimg" src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" alt="ICON" /><br/>
        <select name="icon" onchange="back_c()" class="I" style="width:150px" >
 　     <option value="1" selected="selected">ICON01</option>
