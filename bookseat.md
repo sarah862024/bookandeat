@@ -1,9 +1,7 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
  <script type='text/javascript'>
- function photos(){
-       document.getElementById("MyImage").src = "https://github.com/sarah862024/bookandeat/edit/master/" + photo.value;
-       document.getElementById("MyImage").style.display = "";
-       }
+
+function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src="img/1.jpg"; }else{ document.face.src="img/"+document.myForm.icon.value+".jpg"; } }
  </script>
 <style>
  
@@ -306,19 +304,17 @@ float:left;
        <div>
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" class= "foodimg">
-    蒜味奶油鮮蝦<img style="display:none" id="MyImage">墨魚義大利麵<br/>
-    <form>
-       <select style="width:150px" name="Yourfood">
-　     <option value="A1">1份</option>
-　     <option value="A2">2份</option>
-　     <option value="A3">3份</option>
-　     <option value="A4">4份</option>
-       <option value="A6">6份</option>
-       <option value="A7">7份</option>
-       <option value="A8">8份</option>
-       <option value="A10">9份</option>
-       <option value="A11">10份</option>
+   
+   <form name="myForm" action="xx" method="post">
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" >
+    <img name="face" id="MyImage" class= "foodimg" ><br/>
+       <select name="icon" onchange="back_c()" class="I" style="width:150px" >
+　     <option value="1" selected="selected">ICON01</option>
+<option value="2">ICON02</option>
+<option value="3">ICON03</option>
+<option value="4">ICON04</option>
+<option value="5">ICON05</option>
+<option value="6">ICON06</option>
        </select>
            </form>
     </div>
