@@ -309,7 +309,7 @@ float:left;
        <div>
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
- https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB.png
+
    <form >
    <select id="select-games" onchange="changeImage()">
   <option value="Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1">奶油香蒜墨魚義大利麵</option>
