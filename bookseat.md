@@ -5,7 +5,7 @@
 function changeImage() {
  
   var gameValue = document.getElementById("select-games").value;
-  if(gameValue=="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5"){ document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5"; }
+  if(gameValue=="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5"){ document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }
   else{
   document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + gameValue + ".png";}
 }
