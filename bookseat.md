@@ -1,7 +1,7 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
  <script type='text/javascript'>
 
-function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src=https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }else{ document.face.src="https://github.com/sarah862024/bookandeat/edit/master/"+document.myForm.icon.value+".png"; } }
+function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src=https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }else{ document.face.src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/"+document.myForm.icon.value+".png"; } }
  </script>
 <style>
  
