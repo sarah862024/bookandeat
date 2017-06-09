@@ -1,9 +1,8 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 
 
-<script>
+<script type="text/javascript">
 function changeImage() {
- 
   var gameValue = document.getElementById("select-games").value;
   document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + gameValue + ".png";}
 
@@ -313,7 +312,6 @@ float:left;
  
    <form >
    <select id="select-games" onchange="changeImage()">
-   
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
   <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
@@ -336,7 +334,10 @@ float:left;
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
-   </select>
+   </select>
+   <img class="game-picture" alt="Logo of chosen game" id="select-game-picture">
+   
+   </select>
    </form>
     </div>
        <input type="submit" value="預約">
