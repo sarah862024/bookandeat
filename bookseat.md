@@ -1,8 +1,11 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
- <script type='text/javascript'>
+<script>
+function myFunction() {
+   if(document.forms.value==1) {document.images[0]}
+   else if(document.forms.value==2){document.images[1]}
+}
+</script>
 
-function back_c(){ if (document.forms.icon.value=="1"){ document.face.src=https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }else{ document.face.src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/"+document.forms.icon.value+".png"; } }
- </script>
 <style>
  
 body{
@@ -306,10 +309,11 @@ float:left;
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
    
    <form  action="xx" method="post">
-    <img name="face" id="MyImage" class= "foodimg" src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" alt="ICON" /><br/>
-       <select name="icon" onchange="back_c()" class="I" style="width:150px" >
-　     <option value="1" selected="selected">ICON01</option>
-<option value="Web%20k中廣告1">ICON02</option>
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" >
+    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png" ><br/>
+       <select name="icon" class="I" style="width:150px" onchange="myFunction()" >
+　     <option value="1" >ICON01</option>
+<option value="2">ICON02</option>
 <option value="3">ICON03</option>
 <option value="4">ICON04</option>
 <option value="5">ICON05</option>
