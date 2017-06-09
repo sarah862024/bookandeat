@@ -5,10 +5,8 @@
 function changeImage() {
  
   var gameValue = document.getElementById("select-games").value;
-  if(gameValue=="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5"){ document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png"; }
-  else{
   document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + gameValue + ".png";}
-}
+
 
 function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src="img/1.jpg"; }else{ document.face.src="img/"+document.myForm.icon.value+".jpg"; } } //-->
 </script>
@@ -314,6 +312,7 @@ float:left;
        <div>
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
+ <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png">
    <form >
    <select id="select-games" onchange="changeImage()">
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
@@ -338,10 +337,8 @@ float:left;
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
-  </select>
-<img class="game-picture" alt="Logo of chosen game" id="select-game-picture">
-       </select>
-           </form>
+   </select>
+   </form>
     </div>
        <input type="submit" value="預約">
        <select size="1" name="photo" onchange="photos(this);"> 
