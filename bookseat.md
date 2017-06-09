@@ -335,9 +335,9 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture" alt="Logo of chosen game" id="select-game-picture">
+   <img class="game-picture" alt="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" id="select-game-picture">
    
-   </select>
+   
    </form>
     </div>
        <input type="submit" value="預約">
