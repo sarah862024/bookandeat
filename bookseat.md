@@ -1,8 +1,10 @@
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+
+
 <script>
-function myFunction(values) {
-   if(value==1) {document.images[0]}
-   else if(value==2){document.images[1]}
+function changeImage() {
+  var gameValue = document.getElementById("select-games").value;
+  document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + gameValue + ".png";
 }
 </script>
 
@@ -308,17 +310,14 @@ float:left;
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
    
-   <form  action="xx" method="post">
-    
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1.png" ><br/>
-    <img src="https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png" >
-       <select name="icon" class="I" style="width:150px" onchange="myFunction(values)" >
-　     <option value="1" >ICON01</option>
-<option value="2">ICON02</option>
-<option value="3">ICON03</option>
-<option value="4">ICON04</option>
-<option value="5">ICON05</option>
-<option value="6">ICON06</option>
+   <form >
+   <select id="select-games" onchange="changeImage()">
+  <option value="Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1">Game 1</option>
+  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">Game 2</option>
+  <option value="game3">Game 3</option>
+  <option value="game4">Game 4</option>
+</select>
+<img class="game-picture" alt="Logo of chosen game" id="select-game-picture">
        </select>
            </form>
     </div>
@@ -330,5 +329,4 @@ float:left;
        </select>
        <img style="display:none" id="MyImage">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
-
 
