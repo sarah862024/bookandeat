@@ -309,10 +309,10 @@ float:left;
        <div>
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
-
+https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5.png
    <form >
    <select id="select-games" onchange="changeImage()">
-  <option value="Web%20k%E4%B8%AD%E5%BB%A3%E5%91%8A1">奶油香蒜墨魚義大利麵</option>
+  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
   <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
   <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
