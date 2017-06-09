@@ -315,6 +315,7 @@ float:left;
  
    <form >
    <select id="select-games" onchange="changeImage()">
+   <option value="#">請選擇</option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
   <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
