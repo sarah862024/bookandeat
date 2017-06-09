@@ -3,13 +3,11 @@
 
 <script type="text/javascript">
 function changeImage() {
- function changeImage() {
+ 
   var gameValue = document.getElementById("select-games").value;
   if(gameValue=="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5"){ document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5"; }
   else{
   document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + gameValue + ".png";}
-}
-
 }
 
 function back_c(){ if (document.myForm.icon.value=="1"){ document.face.src="img/1.jpg"; }else{ document.face.src="img/"+document.myForm.icon.value+".jpg"; } } //-->
