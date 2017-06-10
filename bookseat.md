@@ -336,11 +336,6 @@ float:left;
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
-  <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
-  <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
-  <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
-  <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
@@ -363,13 +358,8 @@ float:left;
    <form >
    <select id="display2" onchange="changeImage2()">
     <option>請選擇 </option>
-  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
-  <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
   <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
-  <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
   <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
-  <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
@@ -392,13 +382,7 @@ float:left;
    <form >
    <select id="display3" onchange="changeImage3()">
     <option>請選擇 </option>
-  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
-  <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
-  <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
-  <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
-  <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
-  <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
+  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬火腿三明治</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
@@ -421,13 +405,6 @@ float:left;
    <form >
    <select id="display4" onchange="changeImage4()">
     <option>請選擇 </option>
-  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
-  <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
-  <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
-  <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
-  <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
-  <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
@@ -450,12 +427,6 @@ float:left;
    <form >
    <select id="display5" onchange="changeImage5()">
     <option>請選擇 </option>
-  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
-  <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
-  <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
-  <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
-  <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
   <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
@@ -479,13 +450,7 @@ float:left;
    <form >
    <select id="display6" onchange="changeImage6()">
     <option>請選擇 </option>
-  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
-  <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
-  <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
   <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
-  <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
-  <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
@@ -508,13 +473,6 @@ float:left;
    <form >
    <select id="display7" onchange="changeImage7()">
     <option>請選擇 </option>
-  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
-  <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
-  <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
-  <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
-  <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
-  <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
@@ -533,17 +491,10 @@ float:left;
    </select>
    <img class="game-picture"  id="selectimg7">
    </form>
-    <p class="fdtitle">書籍專區</p>
+    <p class="fdtitle">書籍專區與3C</p>
    <form >
    <select id="display8" onchange="changeImage8()">
     <option>請選擇 </option>
-  <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
-  <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
-  <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
-  <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬三明治</option>
-  <option value="%E8%9B%8B%E7%B3%95">蛋糕</option>
-  <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">花生醬牛肉漢堡</option>
-  <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
@@ -557,7 +508,7 @@ float:left;
   <option value="game4">Game 4</option>
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
+  <option value="%E8%80%B3%E6%A9%9F">耳機</option>
   <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg8">
