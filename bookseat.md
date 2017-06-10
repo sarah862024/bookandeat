@@ -308,7 +308,7 @@ float:left;
        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
        <div>
        <strong>
-<p id="regtitle">預約食物</p><br/><br/><br/></strong>
+<p id="regtitle">預約食物</p><br/><br/><br/><br/><br/><br/></strong>
  
    <form >
    <select id="display" onchange="changeImage()">
