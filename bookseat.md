@@ -5,6 +5,27 @@
 function changeImage() {
   var Value = document.getElementById("display").value;
   document.getElementById("selectimg").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value + ".png";}
+  function changeImage2() {
+  var Value2 = document.getElementById("display2").value;
+  document.getElementById("selectimg2").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value2 + ".png";}
+  function changeImage3() {
+  var Value3 = document.getElementById("display3").value;
+  document.getElementById("selectimg3").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value3 + ".png";}
+  function changeImage4() {
+  var Value4 = document.getElementById("display4").value;
+  document.getElementById("selectimg4").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value4 + ".png";}
+  function changeImage5() {
+  var Value5 = document.getElementById("display5").value;
+  document.getElementById("selectimg5").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value5 + ".png";}
+  function changeImage6() {
+  var Value6 = document.getElementById("display6").value;
+  document.getElementById("selectimg6").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value6 + ".png";}
+  function changeImage7() {
+  var Value7 = document.getElementById("display7").value;
+  document.getElementById("selectimg7").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value7 + ".png";}
+  function changeImage8() {
+  var Value8 = document.getElementById("display8").value;
+  document.getElementById("selectimg8").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value8 + ".png";}
 
 </script>
 
@@ -309,7 +330,7 @@ float:left;
        <div>
        <strong>
 <p id="regtitle">預約食物</p><br/><br/><br/><br/><br/><br/></strong>
- <p id="fdtitle">主食類</p>
+ <p class="fdtitle">主食類</p>
    <form >
    <select id="display" onchange="changeImage()">
     <option>請選擇 </option>
@@ -338,9 +359,9 @@ float:left;
    </select>
    <img class="game-picture"  id="selectimg">
    </form>
-    <p id="fdtitle">速食類</p>
+    <p class="fdtitle">速食類</p>
    <form >
-   <select id="display" onchange="changeImage()">
+   <select id="display2" onchange="changeImage2()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -365,11 +386,11 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="selectimg">
+   <img class="game-picture"  id="selectimg2">
    </form>
-    <p id="fdtitle">輕食類</p>
+    <p class="fdtitle">輕食類</p>
    <form >
-   <select id="display" onchange="changeImage()">
+   <select id="display3" onchange="changeImage3()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -394,11 +415,11 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="selectimg">
+   <img class="game-picture"  id="selectimg3">
    </form>
-    <p id="fdtitle">水果類</p>
+    <p class="fdtitle">水果類</p>
    <form >
-   <select id="display" onchange="changeImage()">
+   <select id="display4" onchange="changeImage4()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -423,11 +444,11 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="selectimg">
+   <img class="game-picture"  id="selectimg4">
    </form>
-    <p id="fdtitle">飲料類</p>
+    <p class="fdtitle">飲料類</p>
    <form >
-   <select id="display" onchange="changeImage()">
+   <select id="display5" onchange="changeImage5()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -452,11 +473,11 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="selectimg">
+   <img class="game-picture"  id="selectimg5">
    </form>
-    <p id="fdtitle">點心類</p>
+    <p class="fdtitle">點心類</p>
    <form >
-   <select id="display" onchange="changeImage()">
+   <select id="display6" onchange="changeImage6()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -481,11 +502,11 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="selectimg">
+   <img class="game-picture"  id="selectimg6">
    </form>
-    <p id="fdtitle">提神專區</p>
+    <p class="fdtitle">提神專區</p>
    <form >
-   <select id="display" onchange="changeImage()">
+   <select id="display7" onchange="changeImage7()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -510,11 +531,11 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="selectimg">
+   <img class="game-picture"  id="selectimg7">
    </form>
-    <p id="fdtitle">書籍專區</p>
+    <p class="fdtitle">書籍專區</p>
    <form >
-   <select id="display" onchange="changeImage()">
+   <select id="display8" onchange="changeImage8()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -539,7 +560,7 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="selectimg">
+   <img class="game-picture"  id="selectimg8">
    </form>
     </div>
        <input type="submit" value="預約">
