@@ -337,20 +337,6 @@ float:left;
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄炒飯</option>
   <option value="%E5%A5%B6%E6%B2%B9%E7%81%AB%E8%85%BF%E5%AF%AC%E9%BA%B5">奶油火腿寬麵</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg">
    </form>
@@ -361,20 +347,6 @@ float:left;
   <option value="%E7%82%B8%E7%89%A9%E6%8B%BC%E7%9B%A4">炸物拼盤</option>
   <option value="%E8%B5%B7%E5%8F%B8%E7%89%9B%E8%82%89%E6%BC%A2%E5%A0%A1">起司牛肉漢堡</option>
   <option value="%E6%8A%AB%E8%96%A9">墨西哥辣味蘑菇披薩</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg2">
    </form>
@@ -385,19 +357,6 @@ float:left;
   <option value="%E8%8A%B1%E7%94%9F%E9%86%AC%E4%B8%89%E6%98%8E%E6%B2%BB">花生醬火腿三明治</option>
   <option value="%E8%94%AC%E8%8F%9C%E4%B8%89%E6%98%8E%E6%B2%BB">蔬菜火腿三明治</option>
   <option value="%E8%94%AC%E8%8F%9C%E6%B2%99%E6%8B%89">新鮮蔬菜沙拉</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg3">
    </form>
@@ -408,18 +367,6 @@ float:left;
   <option value="%E5%A0%85%E6%9E%9C%E6%B0%B4%E6%9E%9C%E6%8B%BC%E7%9B%A4">堅果水果拼盤</option>
   <option value="%E6%B0%B4%E6%9E%9C%E6%8B%BC%E7%9B%A4">水果拼盤</option>
   <option value="%E6%B0%B4%E6%9E%9C%E9%BA%A5%E7%89%87%E5%84%AA%E6%A0%BC">水果麥片優格</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg4">
    </form>
@@ -430,18 +377,6 @@ float:left;
   <option value="%E7%89%9B%E5%A5%B6">牛奶</option>
   <option value="%E9%A3%B2%E6%96%99">果昔</option>
   <option value="%E7%B2%BE%E5%8A%9B%E8%94%AC%E6%9E%9C%E6%B1%81">精力蔬果汁</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg5">
    </form>
@@ -453,18 +388,6 @@ float:left;
   <option value="%E9%A4%85%E4%B9%BE">巧克力餅乾</option>
   <option value="%E9%AC%86%E9%A4%85">鬆餅</option>
   <option value="%E9%BA%B5%E5%8C%85">麵包</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg6">
    </form>
@@ -476,17 +399,6 @@ float:left;
   <option value="%E5%8F%A3%E9%A6%99%E7%B3%96">口香糖</option>
   <option value="%E5%92%96%E5%95%A1">咖啡</option>
   <option value="%E7%B6%A0%E8%8C%B6">綠茶</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
    </select>
    <img class="game-picture"  id="selectimg7">
    </form>
@@ -499,14 +411,6 @@ float:left;
   <option value="%E6%AD%B7%E5%B1%86%E8%80%83%E9%A1%8C">歷屆考題</option>
   <option value="%E7%A0%94%E7%A9%B6%E6%96%87%E7%8D%BB">研究文獻</option>
   <option value="%E7%B6%93%E5%85%B8%E5%8F%A4%E7%B1%8D">經典古籍</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
-  <option value="game3">Game 3</option>
-  <option value="game4">Game 4</option>
   <option value="%E8%80%B3%E6%A9%9F">耳機</option>
   <option value="%E9%9B%BB%E8%85%A6">電腦</option>
    </select>
