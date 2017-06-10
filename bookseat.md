@@ -3,8 +3,8 @@
 
 <script type="text/javascript">
 function changeImage() {
-  var gameValue = document.getElementById("select-games").value;
-  document.getElementById("select-game-picture").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + gameValue + ".png";}
+  var Value = document.getElementById("display").value;
+  document.getElementById("selectimg").src = "https://raw.githubusercontent.com/sarah862024/bookandeat/master/" + Value + ".png";}
 
 </script>
 
@@ -311,7 +311,7 @@ float:left;
 <p id="regtitle">預約食物</p><br/><br/><br/></strong>
  
    <form >
-   <select id="select-games" onchange="changeImage()">
+   <select id="display" onchange="changeImage()">
     <option>請選擇 </option>
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄醬炒飯</option>
@@ -336,17 +336,11 @@ float:left;
   <option value="game3">Game 3</option>
   <option value="game4">Game 4</option>
    </select>
-   <img class="game-picture"  id="select-game-picture">
+   <img class="game-picture"  id="selectimg">
    
    
    </form>
     </div>
        <input type="submit" value="預約">
-       <select size="1" name="photo" onchange="photos(this);"> 
-       <option>請選擇 </option>
-       <option value="義大利麵.png">1</option> 
-       <option value="K中食物1.png">2</option> 
-       </select>
-       <img style="display:none" id="MyImage">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
 
