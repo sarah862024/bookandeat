@@ -254,6 +254,19 @@ top: 242px;
 .foodimg{
 float:left;
 }
+.bookfoodleft{
+ float:left;
+ weight:450px;
+ height:450px;
+ margin-left:20px;
+  font-family:Microsoft JhengHei;
+ }
+ .bookfoodright{
+ weight:450px;
+ height:450px;
+  font-family:Microsoft JhengHei;
+  float:right;
+ }
 </style>
  
 <body> 
@@ -330,6 +343,7 @@ float:left;
        <div>
        <strong>
 <p id="regtitle">預約食物及參考書</p></strong>
+<div class = "bookfoodleft">
  <p class="fdtitle">主食類</p>
    <form >
    <select id="display" onchange="changeImage()">
@@ -370,6 +384,8 @@ float:left;
    </select><br/><br/>
    <img class="game-picture"  id="selectimg4">
    </form>
+   </div>
+   <div class="bookfoodright">
     <p class="fdtitle">飲料類</p>
    <form >
    <select id="display5" onchange="changeImage5()">
@@ -416,6 +432,7 @@ float:left;
    </select><br/><br/>
    <img class="game-picture"  id="selectimg8">
    </form>
+   </div>
     </div>
        <input type="submit" value="預約">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
