@@ -258,13 +258,14 @@ float:left;
  float:left;
  weight:450px;
  height:450px;
- margin-left:20px;
+ margin-left:180px;
+ margin-top:20px;
   font-family:Microsoft JhengHei;
  }
  .bookfoodright{
  weight:450px;
  height:450px;
-  margin-right:40px;
+  margin-right:240px;
   font-family:Microsoft JhengHei;
   float:right;
  }
@@ -435,6 +436,7 @@ float:left;
    </form>
    </div>
     </div>
+    
        <input type="submit" value="預約">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
 
