@@ -435,8 +435,7 @@ float:left;
    <img class="game-picture"  id="selectimg8">
    </form>
    </div>
+    <input type="submit" value="預約">
     </div>
-    
-       <input type="submit" value="預約">
 <img id="discount" src="https://lily0714.github.io/book-eat/包月打八折正式.png" weight="130" height="160">
 
