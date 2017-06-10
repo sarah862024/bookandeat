@@ -329,7 +329,7 @@ float:left;
        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
        <div>
        <strong>
-<p id="regtitle">預約食物</p><br/><br/><br/><br/><br/><br/></strong>
+<p id="regtitle">預約食物及參考書</p></strong>
  <p class="fdtitle">主食類</p>
    <form >
    <select id="display" onchange="changeImage()">
@@ -337,7 +337,7 @@ float:left;
   <option value="%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5">奶油香蒜墨魚義大利麵</option>
   <option value="%E7%95%AA%E8%8C%84%E9%86%AC%E7%82%92%E9%A3%AF">番茄炒飯</option>
   <option value="%E5%A5%B6%E6%B2%B9%E7%81%AB%E8%85%BF%E5%AF%AC%E9%BA%B5">奶油火腿寬麵</option>
-   </select>
+   </select><br/>
    <img class="game-picture"  id="selectimg">
    </form>
     <p class="fdtitle">速食類</p>
