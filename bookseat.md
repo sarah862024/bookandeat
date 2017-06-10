@@ -264,6 +264,7 @@ float:left;
  .bookfoodright{
  weight:450px;
  height:450px;
+  margin-right:40px;
   font-family:Microsoft JhengHei;
   float:right;
  }
