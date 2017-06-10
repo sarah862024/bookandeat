@@ -355,7 +355,7 @@ float:left;
   <option value="%E5%A5%B6%E6%B2%B9%E7%81%AB%E8%85%BF%E5%AF%AC%E9%BA%B5">奶油火腿寬麵</option>
    </select><br/><br/>
    <img class="game-picture"  id="selectimg">
-   </form>
+   </form><br/>
     <p class="fdtitle">速食類</p>
    <form >
    <select id="display2" onchange="changeImage2()">
