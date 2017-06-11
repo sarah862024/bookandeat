@@ -416,7 +416,7 @@ color: orange;
           <a href=" http://cap.ntnu.edu.tw/" style="text-decoration:none;">&emsp;&emsp;國中教育會考網站&emsp;&emsp;</a>
           <a href=" http://www.ceec.edu.tw/" style="text-decoration:none;">&emsp;高中學測指考網站&emsp;&emsp;&emsp;</a>
           <a href="http://wwwc.moex.gov.tw/main/exam/wFrmExamQandASearch.aspx?menu_id=156" style="text-decoration:none;">考選部網站&emsp;&emsp;&emsp;</a>
-          <a href=" http://info.public.com.tw/info/testplan.aspx" style="text-decoration:none;">公職相關資料網站&emsp;&emsp;&emsp;</a>
+          <a href=" http://info.public.com.tw/info/testplan.aspx" style="text-decoration:none;">公職相關資料網站&emsp;&emsp;</a>
           <a href="http://www.toeic.com.tw/" style="text-decoration:none;">TOEIC多益英語測驗</a>
         </div>
         </div>
