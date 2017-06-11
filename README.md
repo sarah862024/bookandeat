@@ -276,7 +276,6 @@
  .link{
  weight:900px;
  height:170px;
- background-color:#C4E1FF;
  }
  #discount{
  cursor:pointer;
@@ -410,7 +409,11 @@ color: orange;
         </div>
        
         <div class="link">
-          <p>重要連結</p>
+          <p class="news-title">重要連結</p>
+          <a href=" http://cap.ntnu.edu.tw/" style="text-decoration:none;">國中教育會考網站</a>
+          <a href=" http://www.ceec.edu.tw/" style="text-decoration:none;">高中學測指考網站</a>
+          <a href="http://wwwc.moex.gov.tw/main/exam/wFrmExamQandASearch.aspx?menu_id=156" style="text-decoration:none;">考選部網站</a>
+          <a href=" http://info.public.com.tw/info/testplan.aspx" style="text-decoration:none;">公職相關資料網站</a>
         </div>
         </div>
  </div>       
